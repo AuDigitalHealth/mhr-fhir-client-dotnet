@@ -1,0 +1,15 @@
+﻿{
+  "dependencies": {
+    "Hl7.Fhir.Specification.STU3": "0.90.5-alpha4",
+    "Hl7.Fhir.STU3": "0.90.5-alpha4",
+    "LibLog": "4.2.6",
+    "Newtonsoft.Json": "9.0.1",
+    "System.IdentityModel.Tokens.Jwt": "5.1.2"
+  },
+  "frameworks": {
+    "net452": {}
+  },
+  "runtimes": { 
+    "win": {} 
+  }  
+}

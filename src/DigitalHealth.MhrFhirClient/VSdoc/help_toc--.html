@@ -1,0 +1,7039 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Menu</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<style>
+html { font-family:sans-serif; background-color:#ffffff; font-size:75%;}
+a { text-decoration:none; color:rgb(0,51,102) }
+.header a { color:#000!important }
+a:focus {background-color: #CCCCCC;}
+.item { border:solid 0px #000; padding:0.25em; margin-left:1em }
+.header, .leaf { cursor:pointer; padding-left:19px; min-height:18px; line-height:18px; white-space:nowrap;}
+.closed { background:url(bookC.gif) no-repeat }
+.open { background:url(bookE.gif) no-repeat }
+.leaf { background:url(leaf.gif) no-repeat }
+</style>
+
+<script>
+function toggle(idsub,elhead) {
+    var elsub = document.getElementById(idsub);
+    if(elsub.style.display=="block")
+        elsub.style.display = "none";
+    else
+        elsub.style.display="block";
+        
+    if(elhead.className=="header open")
+        elhead.className = "header closed";
+    else
+        elhead.className = "header open";
+}
+
+function expandLinkInToc(url) {
+	var link = findLink(url);
+	//alert(link);
+	//alert(link.innerHTML);
+	if(!isElementVisible(link)) {
+		expandElementAndParents(link);
+	}
+	link.scrollIntoView(true);
+	link.focus();
+}
+
+function expandElementAndParents(elm) {
+	if(elm.style) {
+		if(elm.style.display=="none") {
+			//elm is container with subtopics
+			elm.style.display="block";
+			// process also chapter header
+			var id = elm.getAttribute("id");
+			id = id.substring(1);
+			var elHead = document.getElementById(id);
+			if(elHead.className=="header closed") {
+				elHead.className = "header open";
+			}
+		}
+	}
+	// process parents
+	if (elm.parentNode) {
+		expandElementAndParents(elm.parentNode);
+	}
+}
+
+function findLink(url) {
+	var links = document.links;
+	var i;
+	for (i=0; i<links.length; i++) {
+		if (links[i].href == url) {
+			return links[i];
+		}		
+	}
+	return null;
+} 
+
+function isElementVisible(elm) {
+	if(elm.style) {
+		if(elm.style.display == "none") {
+			return false;
+		}
+	}
+	if (elm.parentNode) {
+		return isElementVisible(elm.parentNode);
+	} else {
+		return true;
+	}
+}
+</script>
+
+</head>
+
+<body>
+    
+						 		<div id="1" class="header closed" onclick="toggle('c1',this)">
+   
+  		<a href="topic_00000000000001CD.html" target="vbdocright">DigitalHealth.MhrFhirClient.Net452 Reference</a>
+ 
+		</div>
+     <div id="c1" class="item" style="display:none">
+		
+     
+
+       <div id="2" class="header closed" onclick="toggle('c2',this)">
+    <a href="topic_0000000000000116.html" target="vbdocright">DigitalHealth.MhrFhirClient Namespace</a>
+    </div>
+    <div id="c2" class="item" style="display:none">
+		
+
+						    <div id="3" class="header closed" onclick="toggle('c3',this)">
+    <a href="topic_0000000000000117.html" target="vbdocright">MhrFhirClientResource Class</a>
+    </div>
+    <div id="c3" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000118.html" target="vbdocright">MhrFhirClientResource Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="4" class="header closed" onclick="toggle('c4',this)">
+    <a href="topic_0000000000000117_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c4" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000011B.html" target="vbdocright">AccessTypeAndAccessCodeError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000011C.html" target="vbdocright">ClassOrTypeCodeRequiredError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000011A.html" target="vbdocright">Culture Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000011D.html" target="vbdocright">EmptyOrNullError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000011E.html" target="vbdocright">IdentifierSearchError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000011F.html" target="vbdocright">IhiWithDemographicError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000120.html" target="vbdocright">NoIhiError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000121.html" target="vbdocright">NullError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000122.html" target="vbdocright">PatientIdOrPatientSearchRequiredError Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000119.html" target="vbdocright">ResourceManager Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="5" class="header closed" onclick="toggle('c5',this)">
+    <a href="topic_0000000000000117_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c5" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="6" class="header closed" onclick="toggle('c6',this)">
+    <a href="topic_0000000000000123.html" target="vbdocright">MhrFhirException Class</a>
+    </div>
+    <div id="c6" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="7" class="header closed" onclick="toggle('c7',this)">
+    <a href="topic_0000000000000126_overloads--.html" target="vbdocright">MhrFhirException Constructor</a>
+    </div>
+    <div id="c7" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000126.html" target="vbdocright">MhrFhirException(OperationOutcome, HttpStatusCode, string, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000127.html" target="vbdocright">MhrFhirException(string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000128.html" target="vbdocright">MhrFhirException(string, Exception) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="8" class="header closed" onclick="toggle('c8',this)">
+    <a href="topic_0000000000000123_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c8" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000124.html" target="vbdocright">OperationOutcome Property</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000125.html" target="vbdocright">StatusDescription Property</a></div>
+  
+
+						
+			</div>
+		
+
+
+		    <div id="9" class="header closed" onclick="toggle('c9',this)">
+    <a href="topic_0000000000000123_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c9" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		    <div id="10" class="header closed" onclick="toggle('c10',this)">
+    <a href="topic_0000000000000123_events--.html" target="vbdocright">Events</a>
+    </div>
+    <div id="c10" class="item" style="display:none">
+		
+						
+			</div>
+		
+
+
+		
+
+
+		    <div id="11" class="header closed" onclick="toggle('c11',this)">
+    <a href="topic_0000000000000123_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c11" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000170.html" target="vbdocright">ResponseContent Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000016F.html" target="vbdocright">StatusCode Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="12" class="header closed" onclick="toggle('c12',this)">
+    <a href="topic_0000000000000096.html" target="vbdocright">DigitalHealth.MhrFhirClient.Client Namespace</a>
+    </div>
+    <div id="c12" class="item" style="display:none">
+		
+
+						    <div id="13" class="header closed" onclick="toggle('c13',this)">
+    <a href="topic_0000000000000097.html" target="vbdocright">MhrFhirBaseClient Class</a>
+    </div>
+    <div id="c13" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000098.html" target="vbdocright">MhrFhirBaseClient Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="14" class="header closed" onclick="toggle('c14',this)">
+    <a href="topic_0000000000000097_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c14" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000AD.html" target="vbdocright">AddPersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A7.html" target="vbdocright">AddPersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AC.html" target="vbdocright">CreatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A6.html" target="vbdocright">CreatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B0.html" target="vbdocright">DeletePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AA.html" target="vbdocright">DeletePersonalHealthSummaryMedication Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A0.html" target="vbdocright">GainAccessToPatientRecord Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009A.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009C.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A4.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						      <div id="15" class="header closed" onclick="toggle('c15',this)">
+    <a href="topic_000000000000009E_overloads--.html" target="vbdocright">GetPatientDetails Method</a>
+    </div>
+    <div id="c15" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000A1.html" target="vbdocright">GetPatientDetails() Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009E.html" target="vbdocright">GetPatientDetails(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A3.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AB.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A5.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000099.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A2.html" target="vbdocright">GetRecordList Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009B.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000009D.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000AE.html" target="vbdocright">UpdatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AF.html" target="vbdocright">UpdatePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A9.html" target="vbdocright">UpdatePersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A8.html" target="vbdocright">UpdatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009F.html" target="vbdocright">VerifyPatientExists Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="16" class="header closed" onclick="toggle('c16',this)">
+    <a href="topic_00000000000000B1.html" target="vbdocright">MhrFhirConsumerClient Class</a>
+    </div>
+    <div id="c16" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B2.html" target="vbdocright">MhrFhirConsumerClient Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="17" class="header closed" onclick="toggle('c17',this)">
+    <a href="topic_00000000000000B1_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c17" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000AD.html" target="vbdocright">AddPersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A7.html" target="vbdocright">AddPersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AC.html" target="vbdocright">CreatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A6.html" target="vbdocright">CreatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B0.html" target="vbdocright">DeletePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AA.html" target="vbdocright">DeletePersonalHealthSummaryMedication Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A0.html" target="vbdocright">GainAccessToPatientRecord Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009A.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009C.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A4.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						      <div id="18" class="header closed" onclick="toggle('c18',this)">
+    <a href="topic_000000000000009E_overloads--.html" target="vbdocright">GetPatientDetails Method</a>
+    </div>
+    <div id="c18" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000A1.html" target="vbdocright">GetPatientDetails() Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009E.html" target="vbdocright">GetPatientDetails(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A3.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AB.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A5.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000099.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A2.html" target="vbdocright">GetRecordList Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009B.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000009D.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000AE.html" target="vbdocright">UpdatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AF.html" target="vbdocright">UpdatePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A9.html" target="vbdocright">UpdatePersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A8.html" target="vbdocright">UpdatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009F.html" target="vbdocright">VerifyPatientExists Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="19" class="header closed" onclick="toggle('c19',this)">
+    <a href="topic_00000000000000B3.html" target="vbdocright">MhrFhirProviderClient Class</a>
+    </div>
+    <div id="c19" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B4.html" target="vbdocright">MhrFhirProviderClient Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="20" class="header closed" onclick="toggle('c20',this)">
+    <a href="topic_00000000000000B3_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c20" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000AD.html" target="vbdocright">AddPersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A7.html" target="vbdocright">AddPersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AC.html" target="vbdocright">CreatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A6.html" target="vbdocright">CreatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B0.html" target="vbdocright">DeletePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AA.html" target="vbdocright">DeletePersonalHealthSummaryMedication Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A0.html" target="vbdocright">GainAccessToPatientRecord Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009A.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009C.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A4.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						      <div id="21" class="header closed" onclick="toggle('c21',this)">
+    <a href="topic_000000000000009E_overloads--.html" target="vbdocright">GetPatientDetails Method</a>
+    </div>
+    <div id="c21" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000A1.html" target="vbdocright">GetPatientDetails() Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009E.html" target="vbdocright">GetPatientDetails(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A3.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AB.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A5.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000099.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A2.html" target="vbdocright">GetRecordList Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009B.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000009D.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000AE.html" target="vbdocright">UpdatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AF.html" target="vbdocright">UpdatePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A9.html" target="vbdocright">UpdatePersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A8.html" target="vbdocright">UpdatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000009F.html" target="vbdocright">VerifyPatientExists Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="22" class="header closed" onclick="toggle('c22',this)">
+    <a href="topic_00000000000000B5.html" target="vbdocright">MhrFhirRestClient Class</a>
+    </div>
+    <div id="c22" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B6.html" target="vbdocright">MhrFhirRestClient Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="23" class="header closed" onclick="toggle('c23',this)">
+    <a href="topic_00000000000000B5_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c23" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000169.html" target="vbdocright">EndPointUrl Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="24" class="header closed" onclick="toggle('c24',this)">
+    <a href="topic_00000000000000B5_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c24" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000B7.html" target="vbdocright">CreateMhrFhirRequest Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000016D.html" target="vbdocright">ExecuteRequest Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000B8.html" target="vbdocright">ExecuteRequest&lt;T&gt; Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="25" class="header closed" onclick="toggle('c25',this)">
+    <a href="topic_00000000000000B9.html" target="vbdocright">OAuthClient Class</a>
+    </div>
+    <div id="c25" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="26" class="header closed" onclick="toggle('c26',this)">
+    <a href="topic_00000000000000BA_overloads--.html" target="vbdocright">OAuthClient Constructor</a>
+    </div>
+    <div id="c26" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000BA.html" target="vbdocright">OAuthClient(ConsumerOAuthModel, IRestClient) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000BB.html" target="vbdocright">OAuthClient(ProviderOAuthModel, IRestClient) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="27" class="header closed" onclick="toggle('c27',this)">
+    <a href="topic_00000000000000B9_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c27" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000BC.html" target="vbdocright">GetLoginUri Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000BF.html" target="vbdocright">GetProviderToken Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000BE.html" target="vbdocright">GetRefreshToken Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000BD.html" target="vbdocright">GetToken Method</a></div>
+  
+
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="28" class="header closed" onclick="toggle('c28',this)">
+    <a href="topic_00000000000000C0.html" target="vbdocright">OAuthConsumerClient Class</a>
+    </div>
+    <div id="c28" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000C1.html" target="vbdocright">OAuthConsumerClient Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="29" class="header closed" onclick="toggle('c29',this)">
+    <a href="topic_00000000000000C0_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c29" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000C2.html" target="vbdocright">GetLoginUri Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000C4.html" target="vbdocright">GetRefreshToken Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000C3.html" target="vbdocright">GetToken Method</a></div>
+  
+
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="30" class="header closed" onclick="toggle('c30',this)">
+    <a href="topic_00000000000000C5.html" target="vbdocright">OAuthProviderClient Class</a>
+    </div>
+    <div id="c30" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000C6.html" target="vbdocright">OAuthProviderClient Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="31" class="header closed" onclick="toggle('c31',this)">
+    <a href="topic_00000000000000C5_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c31" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000C7.html" target="vbdocright">GetProviderToken Method</a></div>
+  
+
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="32" class="header closed" onclick="toggle('c32',this)">
+    <a href="topic_00000000000000C8.html" target="vbdocright">OAuthProviderClientException Class</a>
+    </div>
+    <div id="c32" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="33" class="header closed" onclick="toggle('c33',this)">
+    <a href="topic_00000000000000CB_overloads--.html" target="vbdocright">OAuthProviderClientException Constructor</a>
+    </div>
+    <div id="c33" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000CB.html" target="vbdocright">OAuthProviderClientException(HttpStatusCode, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000CC.html" target="vbdocright">OAuthProviderClientException(string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000CD.html" target="vbdocright">OAuthProviderClientException(string, Exception) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="34" class="header closed" onclick="toggle('c34',this)">
+    <a href="topic_00000000000000C8_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c34" class="item" style="display:none">
+		
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000CA.html" target="vbdocright">Error Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000C9.html" target="vbdocright">ErrorDescription Property</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		    <div id="35" class="header closed" onclick="toggle('c35',this)">
+    <a href="topic_00000000000000C8_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c35" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		    <div id="36" class="header closed" onclick="toggle('c36',this)">
+    <a href="topic_00000000000000C8_events--.html" target="vbdocright">Events</a>
+    </div>
+    <div id="c36" class="item" style="display:none">
+		
+						
+			</div>
+		
+
+
+		
+
+
+		    <div id="37" class="header closed" onclick="toggle('c37',this)">
+    <a href="topic_00000000000000C8_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c37" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000170.html" target="vbdocright">ResponseContent Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000016F.html" target="vbdocright">StatusCode Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="38" class="header closed" onclick="toggle('c38',this)">
+    <a href="topic_00000000000000CE.html" target="vbdocright">DigitalHealth.MhrFhirClient.Enum Namespace</a>
+    </div>
+    <div id="c38" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000CF.html" target="vbdocright">AccessType Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="topic_00000000000000D3.html" target="vbdocright">Gender Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="topic_00000000000000D8.html" target="vbdocright">IdentifierType Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="topic_00000000000000DD.html" target="vbdocright">Status Enumeration</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="39" class="header closed" onclick="toggle('c39',this)">
+    <a href="topic_00000000000000E1.html" target="vbdocright">DigitalHealth.MhrFhirClient.Extension Namespace</a>
+    </div>
+    <div id="c39" class="item" style="display:none">
+		
+
+						    <div id="40" class="header closed" onclick="toggle('c40',this)">
+    <a href="topic_00000000000000E2.html" target="vbdocright">EnumExtension Class</a>
+    </div>
+    <div id="c40" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="41" class="header closed" onclick="toggle('c41',this)">
+    <a href="topic_00000000000000E2_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c41" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000E3.html" target="vbdocright">Description Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="42" class="header closed" onclick="toggle('c42',this)">
+    <a href="topic_00000000000000E4.html" target="vbdocright">MhrClientDateExtension Class</a>
+    </div>
+    <div id="c42" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="43" class="header closed" onclick="toggle('c43',this)">
+    <a href="topic_00000000000000E4_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c43" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000E5.html" target="vbdocright">MrhClientDateToString Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="44" class="header closed" onclick="toggle('c44',this)">
+    <a href="topic_00000000000000E6.html" target="vbdocright">DigitalHealth.MhrFhirClient.Factory Namespace</a>
+    </div>
+    <div id="c44" class="item" style="display:none">
+		
+
+						    <div id="45" class="header closed" onclick="toggle('c45',this)">
+    <a href="topic_00000000000000E7.html" target="vbdocright">ConsumerOAuthClientFactory Class</a>
+    </div>
+    <div id="c45" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="46" class="header closed" onclick="toggle('c46',this)">
+    <a href="topic_00000000000000E7_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c46" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000E8.html" target="vbdocright">Create Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="47" class="header closed" onclick="toggle('c47',this)">
+    <a href="topic_00000000000000E9.html" target="vbdocright">MhrFhirConsumerClientFactory Class</a>
+    </div>
+    <div id="c47" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="48" class="header closed" onclick="toggle('c48',this)">
+    <a href="topic_00000000000000E9_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c48" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000EA.html" target="vbdocright">Create Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="49" class="header closed" onclick="toggle('c49',this)">
+    <a href="topic_00000000000000EB.html" target="vbdocright">MhrFhirProviderClientFactory Class</a>
+    </div>
+    <div id="c49" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="50" class="header closed" onclick="toggle('c50',this)">
+    <a href="topic_00000000000000EB_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c50" class="item" style="display:none">
+		
+						      <div id="51" class="header closed" onclick="toggle('c51',this)">
+    <a href="topic_00000000000000EC_overloads--.html" target="vbdocright">Create Method</a>
+    </div>
+    <div id="c51" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000EC.html" target="vbdocright">Create(Uri, string, string, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000ED.html" target="vbdocright">Create(Uri, string, string, string, X509Certificate2) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="52" class="header closed" onclick="toggle('c52',this)">
+    <a href="topic_00000000000000EE.html" target="vbdocright">ProviderOAuthClientFactory Class</a>
+    </div>
+    <div id="c52" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="53" class="header closed" onclick="toggle('c53',this)">
+    <a href="topic_00000000000000EE_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c53" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000EF.html" target="vbdocright">Create Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="54" class="header closed" onclick="toggle('c54',this)">
+    <a href="topic_00000000000000F0.html" target="vbdocright">DigitalHealth.MhrFhirClient.Interface Namespace</a>
+    </div>
+    <div id="c54" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+						    <div id="55" class="header closed" onclick="toggle('c55',this)">
+    <a href="topic_00000000000000F1.html" target="vbdocright">IConsumerOAuthClient Interface</a>
+    </div>
+    <div id="c55" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="56" class="header closed" onclick="toggle('c56',this)">
+    <a href="topic_00000000000000F1_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c56" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000F2.html" target="vbdocright">GetLoginUri Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F4.html" target="vbdocright">GetRefreshToken Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F3.html" target="vbdocright">GetToken Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="57" class="header closed" onclick="toggle('c57',this)">
+    <a href="topic_00000000000000F5.html" target="vbdocright">IMhrFhirBaseClient Interface</a>
+    </div>
+    <div id="c57" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="58" class="header closed" onclick="toggle('c58',this)">
+    <a href="topic_00000000000000F5_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c58" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000F7.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F9.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FD.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FB.html" target="vbdocright">GetPatientDetails Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FC.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FF.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FE.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F6.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F8.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FA.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="59" class="header closed" onclick="toggle('c59',this)">
+    <a href="topic_0000000000000100.html" target="vbdocright">IMhrFhirConsumerClient Interface</a>
+    </div>
+    <div id="c59" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="60" class="header closed" onclick="toggle('c60',this)">
+    <a href="topic_0000000000000100_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c60" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000104.html" target="vbdocright">AddPersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000109.html" target="vbdocright">AddPersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000103.html" target="vbdocright">CreatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000108.html" target="vbdocright">CreatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000107.html" target="vbdocright">DeletePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010C.html" target="vbdocright">DeletePersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F7.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F9.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FD.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						      <div id="61" class="header closed" onclick="toggle('c61',this)">
+    <a href="topic_0000000000000101_overloads--.html" target="vbdocright">GetPatientDetails Method</a>
+    </div>
+    <div id="c61" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000101.html" target="vbdocright">GetPatientDetails() Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000FB.html" target="vbdocright">GetPatientDetails(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FC.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FF.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FE.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F6.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000102.html" target="vbdocright">GetRecordList Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F8.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FA.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000105.html" target="vbdocright">UpdatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000106.html" target="vbdocright">UpdatePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010B.html" target="vbdocright">UpdatePersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010A.html" target="vbdocright">UpdatePersonalHealthSummaryMedications Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="62" class="header closed" onclick="toggle('c62',this)">
+    <a href="topic_000000000000010D.html" target="vbdocright">IMhrFhirProviderClient Interface</a>
+    </div>
+    <div id="c62" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="63" class="header closed" onclick="toggle('c63',this)">
+    <a href="topic_000000000000010D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c63" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000010F.html" target="vbdocright">GainAccessToPatientRecord Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F7.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F9.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FD.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FB.html" target="vbdocright">GetPatientDetails Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FC.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FF.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FE.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F6.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F8.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FA.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010E.html" target="vbdocright">VerifyPatientExists Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="64" class="header closed" onclick="toggle('c64',this)">
+    <a href="topic_0000000000000110.html" target="vbdocright">IMhrFhirRestClient Interface</a>
+    </div>
+    <div id="c64" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="65" class="header closed" onclick="toggle('c65',this)">
+    <a href="topic_0000000000000110_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c65" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000111.html" target="vbdocright">CreateMhrFhirRequest Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000113.html" target="vbdocright">ExecuteRequest Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000112.html" target="vbdocright">ExecuteRequest&lt;T&gt; Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="66" class="header closed" onclick="toggle('c66',this)">
+    <a href="topic_0000000000000114.html" target="vbdocright">IProviderOAuthClient Interface</a>
+    </div>
+    <div id="c66" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="67" class="header closed" onclick="toggle('c67',this)">
+    <a href="topic_0000000000000114_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c67" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000115.html" target="vbdocright">GetProviderToken Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="68" class="header closed" onclick="toggle('c68',this)">
+    <a href="topic_0000000000000000.html" target="vbdocright">DigitalHealth.MhrFhirClient.Logging Namespace</a>
+    </div>
+    <div id="c68" class="item" style="display:none">
+		
+
+						    <div id="69" class="header closed" onclick="toggle('c69',this)">
+    <a href="topic_000000000000000B.html" target="vbdocright">LogExtensions Class</a>
+    </div>
+    <div id="c69" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="70" class="header closed" onclick="toggle('c70',this)">
+    <a href="topic_000000000000000B_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c70" class="item" style="display:none">
+		
+						      <div id="71" class="header closed" onclick="toggle('c71',this)">
+    <a href="topic_0000000000000012_overloads--.html" target="vbdocright">Debug Method</a>
+    </div>
+    <div id="c71" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000012.html" target="vbdocright">Debug(this ILog, Func&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000013.html" target="vbdocright">Debug(this ILog, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="72" class="header closed" onclick="toggle('c72',this)">
+    <a href="topic_0000000000000015_overloads--.html" target="vbdocright">DebugException Method</a>
+    </div>
+    <div id="c72" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000015.html" target="vbdocright">DebugException(this ILog, string, Exception) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000016.html" target="vbdocright">DebugException(this ILog, string, Exception, params object[]) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000014.html" target="vbdocright">DebugFormat Method</a></div>
+  
+
+						
+						      <div id="73" class="header closed" onclick="toggle('c73',this)">
+    <a href="topic_0000000000000017_overloads--.html" target="vbdocright">Error Method</a>
+    </div>
+    <div id="c73" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000017.html" target="vbdocright">Error(this ILog, Func&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000018.html" target="vbdocright">Error(this ILog, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000001A.html" target="vbdocright">ErrorException Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000019.html" target="vbdocright">ErrorFormat Method</a></div>
+  
+
+						      <div id="74" class="header closed" onclick="toggle('c74',this)">
+    <a href="topic_000000000000001B_overloads--.html" target="vbdocright">Fatal Method</a>
+    </div>
+    <div id="c74" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000001B.html" target="vbdocright">Fatal(this ILog, Func&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000001C.html" target="vbdocright">Fatal(this ILog, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000001E.html" target="vbdocright">FatalException Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000001D.html" target="vbdocright">FatalFormat Method</a></div>
+  
+
+						
+						
+						
+						      <div id="75" class="header closed" onclick="toggle('c75',this)">
+    <a href="topic_000000000000001F_overloads--.html" target="vbdocright">Info Method</a>
+    </div>
+    <div id="c75" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000001F.html" target="vbdocright">Info(this ILog, Func&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000020.html" target="vbdocright">Info(this ILog, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000022.html" target="vbdocright">InfoException Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000021.html" target="vbdocright">InfoFormat Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000000C.html" target="vbdocright">IsDebugEnabled Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000000D.html" target="vbdocright">IsErrorEnabled Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000000E.html" target="vbdocright">IsFatalEnabled Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000000F.html" target="vbdocright">IsInfoEnabled Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000010.html" target="vbdocright">IsTraceEnabled Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000011.html" target="vbdocright">IsWarnEnabled Method</a></div>
+  
+
+						
+						
+						
+						      <div id="76" class="header closed" onclick="toggle('c76',this)">
+    <a href="topic_0000000000000023_overloads--.html" target="vbdocright">Trace Method</a>
+    </div>
+    <div id="c76" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000023.html" target="vbdocright">Trace(this ILog, Func&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000024.html" target="vbdocright">Trace(this ILog, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000026.html" target="vbdocright">TraceException Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000025.html" target="vbdocright">TraceFormat Method</a></div>
+  
+
+						      <div id="77" class="header closed" onclick="toggle('c77',this)">
+    <a href="topic_0000000000000027_overloads--.html" target="vbdocright">Warn Method</a>
+    </div>
+    <div id="c77" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000027.html" target="vbdocright">Warn(this ILog, Func&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000028.html" target="vbdocright">Warn(this ILog, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000002A.html" target="vbdocright">WarnException Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000029.html" target="vbdocright">WarnFormat Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="78" class="header closed" onclick="toggle('c78',this)">
+    <a href="topic_000000000000002F.html" target="vbdocright">LogProvider Class</a>
+    </div>
+    <div id="c78" class="item" style="display:none">
+		
+
+						    <div id="79" class="header closed" onclick="toggle('c79',this)">
+    <a href="topic_000000000000003E.html" target="vbdocright">NoOpLogger Class</a>
+    </div>
+    <div id="c79" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="80" class="header closed" onclick="toggle('c80',this)">
+    <a href="topic_000000000000003E_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c80" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000040.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="81" class="header closed" onclick="toggle('c81',this)">
+    <a href="topic_000000000000003E_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c81" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000003F.html" target="vbdocright">Instance Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						    <div id="82" class="header closed" onclick="toggle('c82',this)">
+    <a href="topic_000000000000003B.html" target="vbdocright">CreateLogProvider Delegate</a>
+    </div>
+    <div id="c82" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="83" class="header closed" onclick="toggle('c83',this)">
+    <a href="topic_000000000000003A.html" target="vbdocright">IsLoggerAvailable Delegate</a>
+    </div>
+    <div id="c83" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+		    <div id="84" class="header closed" onclick="toggle('c84',this)">
+    <a href="topic_000000000000002F_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c84" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000033.html" target="vbdocright">CurrentLogProvider Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000031.html" target="vbdocright">IsDisabled Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000032.html" target="vbdocright">OnCurrentLogProviderSet Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="85" class="header closed" onclick="toggle('c85',this)">
+    <a href="topic_000000000000002F_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c85" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000034.html" target="vbdocright">For&lt;T&gt; Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000035.html" target="vbdocright">GetCurrentClassLogger Method</a></div>
+  
+
+						
+						      <div id="86" class="header closed" onclick="toggle('c86',this)">
+    <a href="topic_0000000000000036_overloads--.html" target="vbdocright">GetLogger Method</a>
+    </div>
+    <div id="c86" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000036.html" target="vbdocright">GetLogger(Type, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000037.html" target="vbdocright">GetLogger(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000039.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000038.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000003D.html" target="vbdocright">ResolveLogProvider Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000030.html" target="vbdocright">SetCurrentLogProvider Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="87" class="header closed" onclick="toggle('c87',this)">
+    <a href="topic_000000000000002F_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c87" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000003C.html" target="vbdocright">LogProviderResolvers Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="88" class="header closed" onclick="toggle('c88',this)">
+    <a href="topic_0000000000000041.html" target="vbdocright">LoggerExecutionWrapper Class</a>
+    </div>
+    <div id="c88" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000043.html" target="vbdocright">LoggerExecutionWrapper Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="89" class="header closed" onclick="toggle('c89',this)">
+    <a href="topic_0000000000000041_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c89" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000044.html" target="vbdocright">WrappedLogger Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="90" class="header closed" onclick="toggle('c90',this)">
+    <a href="topic_0000000000000041_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c90" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000045.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="91" class="header closed" onclick="toggle('c91',this)">
+    <a href="topic_0000000000000041_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c91" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000042.html" target="vbdocright">FailedToGenerateLogMessage Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+						    <div id="92" class="header closed" onclick="toggle('c92',this)">
+    <a href="topic_0000000000000002.html" target="vbdocright">ILog Interface</a>
+    </div>
+    <div id="c92" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="93" class="header closed" onclick="toggle('c93',this)">
+    <a href="topic_0000000000000002_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c93" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000003.html" target="vbdocright">Log Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="94" class="header closed" onclick="toggle('c94',this)">
+    <a href="topic_000000000000002B.html" target="vbdocright">ILogProvider Interface</a>
+    </div>
+    <div id="c94" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="95" class="header closed" onclick="toggle('c95',this)">
+    <a href="topic_000000000000002B_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c95" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000002C.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000002E.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000002D.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+						    <div id="96" class="header closed" onclick="toggle('c96',this)">
+    <a href="topic_0000000000000001.html" target="vbdocright">Logger Delegate</a>
+    </div>
+    <div id="c96" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000004.html" target="vbdocright">LogLevel Enumeration</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="97" class="header closed" onclick="toggle('c97',this)">
+    <a href="topic_0000000000000046.html" target="vbdocright">DigitalHealth.MhrFhirClient.Logging.LogProviders Namespace</a>
+    </div>
+    <div id="c97" class="item" style="display:none">
+		
+
+						    <div id="98" class="header closed" onclick="toggle('c98',this)">
+    <a href="topic_0000000000000093.html" target="vbdocright">DisposableAction Class</a>
+    </div>
+    <div id="c98" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000094.html" target="vbdocright">DisposableAction Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="99" class="header closed" onclick="toggle('c99',this)">
+    <a href="topic_0000000000000093_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c99" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000095.html" target="vbdocright">Dispose Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="100" class="header closed" onclick="toggle('c100',this)">
+    <a href="topic_0000000000000064.html" target="vbdocright">EntLibLogProvider Class</a>
+    </div>
+    <div id="c100" class="item" style="display:none">
+		
+
+						    <div id="101" class="header closed" onclick="toggle('c101',this)">
+    <a href="topic_0000000000000069.html" target="vbdocright">EntLibLogger Class</a>
+    </div>
+    <div id="c101" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000006A.html" target="vbdocright">EntLibLogger Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="102" class="header closed" onclick="toggle('c102',this)">
+    <a href="topic_0000000000000069_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c102" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000006B.html" target="vbdocright">Log Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000006C.html" target="vbdocright">LogException Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000065.html" target="vbdocright">EntLibLogProvider Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="103" class="header closed" onclick="toggle('c103',this)">
+    <a href="topic_0000000000000064_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c103" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000066.html" target="vbdocright">ProviderIsAvailableOverride Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="104" class="header closed" onclick="toggle('c104',this)">
+    <a href="topic_0000000000000064_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c104" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000067.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004F.html" target="vbdocright">GetOpenMdcMethod Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004E.html" target="vbdocright">GetOpenNdcMethod Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000068.html" target="vbdocright">IsLoggerAvailable Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="105" class="header closed" onclick="toggle('c105',this)">
+    <a href="topic_000000000000005A.html" target="vbdocright">Log4NetLogProvider Class</a>
+    </div>
+    <div id="c105" class="item" style="display:none">
+		
+
+						    <div id="106" class="header closed" onclick="toggle('c106',this)">
+    <a href="topic_0000000000000061.html" target="vbdocright">Log4NetLogger Class</a>
+    </div>
+    <div id="c106" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000062.html" target="vbdocright">Log4NetLogger Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="107" class="header closed" onclick="toggle('c107',this)">
+    <a href="topic_0000000000000061_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c107" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000063.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000005B.html" target="vbdocright">Log4NetLogProvider Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="108" class="header closed" onclick="toggle('c108',this)">
+    <a href="topic_000000000000005A_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c108" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000005C.html" target="vbdocright">ProviderIsAvailableOverride Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="109" class="header closed" onclick="toggle('c109',this)">
+    <a href="topic_000000000000005A_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c109" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000005D.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000060.html" target="vbdocright">GetOpenMdcMethod Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000005F.html" target="vbdocright">GetOpenNdcMethod Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000005E.html" target="vbdocright">IsLoggerAvailable Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="110" class="header closed" onclick="toggle('c110',this)">
+    <a href="topic_0000000000000087.html" target="vbdocright">LogMessageFormatter Class</a>
+    </div>
+    <div id="c110" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="111" class="header closed" onclick="toggle('c111',this)">
+    <a href="topic_0000000000000087_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c111" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000089.html" target="vbdocright">FormatStructuredMessage Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000088.html" target="vbdocright">SimulateStructuredLogging Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="112" class="header closed" onclick="toggle('c112',this)">
+    <a href="topic_0000000000000047.html" target="vbdocright">LogProviderBase Class</a>
+    </div>
+    <div id="c112" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						    <div id="113" class="header closed" onclick="toggle('c113',this)">
+    <a href="topic_0000000000000049.html" target="vbdocright">OpenMdc Delegate</a>
+    </div>
+    <div id="c113" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="114" class="header closed" onclick="toggle('c114',this)">
+    <a href="topic_0000000000000048.html" target="vbdocright">OpenNdc Delegate</a>
+    </div>
+    <div id="c114" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000004A.html" target="vbdocright">LogProviderBase Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="115" class="header closed" onclick="toggle('c115',this)">
+    <a href="topic_0000000000000047_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c115" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004B.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004F.html" target="vbdocright">GetOpenMdcMethod Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004E.html" target="vbdocright">GetOpenNdcMethod Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="116" class="header closed" onclick="toggle('c116',this)">
+    <a href="topic_0000000000000077.html" target="vbdocright">LoupeLogProvider Class</a>
+    </div>
+    <div id="c116" class="item" style="display:none">
+		
+
+						    <div id="117" class="header closed" onclick="toggle('c117',this)">
+    <a href="topic_000000000000007D.html" target="vbdocright">LoupeLogger Class</a>
+    </div>
+    <div id="c117" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000007E.html" target="vbdocright">LoupeLogger Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="118" class="header closed" onclick="toggle('c118',this)">
+    <a href="topic_000000000000007D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c118" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000007F.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						    <div id="119" class="header closed" onclick="toggle('c119',this)">
+    <a href="topic_0000000000000078.html" target="vbdocright">WriteDelegate Delegate</a>
+    </div>
+    <div id="c119" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000079.html" target="vbdocright">LoupeLogProvider Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="120" class="header closed" onclick="toggle('c120',this)">
+    <a href="topic_0000000000000077_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c120" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000007A.html" target="vbdocright">ProviderIsAvailableOverride Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="121" class="header closed" onclick="toggle('c121',this)">
+    <a href="topic_0000000000000077_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c121" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000007B.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004F.html" target="vbdocright">GetOpenMdcMethod Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004E.html" target="vbdocright">GetOpenNdcMethod Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000007C.html" target="vbdocright">IsLoggerAvailable Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="122" class="header closed" onclick="toggle('c122',this)">
+    <a href="topic_0000000000000050.html" target="vbdocright">NLogLogProvider Class</a>
+    </div>
+    <div id="c122" class="item" style="display:none">
+		
+
+						    <div id="123" class="header closed" onclick="toggle('c123',this)">
+    <a href="topic_0000000000000057.html" target="vbdocright">NLogLogger Class</a>
+    </div>
+    <div id="c123" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000058.html" target="vbdocright">NLogLogger Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="124" class="header closed" onclick="toggle('c124',this)">
+    <a href="topic_0000000000000057_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c124" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000059.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000051.html" target="vbdocright">NLogLogProvider Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="125" class="header closed" onclick="toggle('c125',this)">
+    <a href="topic_0000000000000050_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c125" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000052.html" target="vbdocright">ProviderIsAvailableOverride Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="126" class="header closed" onclick="toggle('c126',this)">
+    <a href="topic_0000000000000050_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c126" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000053.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000056.html" target="vbdocright">GetOpenMdcMethod Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000055.html" target="vbdocright">GetOpenNdcMethod Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000054.html" target="vbdocright">IsLoggerAvailable Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="127" class="header closed" onclick="toggle('c127',this)">
+    <a href="topic_000000000000006D.html" target="vbdocright">SerilogLogProvider Class</a>
+    </div>
+    <div id="c127" class="item" style="display:none">
+		
+
+						    <div id="128" class="header closed" onclick="toggle('c128',this)">
+    <a href="topic_0000000000000074.html" target="vbdocright">SerilogLogger Class</a>
+    </div>
+    <div id="c128" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000075.html" target="vbdocright">SerilogLogger Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="129" class="header closed" onclick="toggle('c129',this)">
+    <a href="topic_0000000000000074_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c129" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000076.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000006E.html" target="vbdocright">SerilogLogProvider Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="130" class="header closed" onclick="toggle('c130',this)">
+    <a href="topic_000000000000006D_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c130" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000006F.html" target="vbdocright">ProviderIsAvailableOverride Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="131" class="header closed" onclick="toggle('c131',this)">
+    <a href="topic_000000000000006D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c131" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000070.html" target="vbdocright">GetLogger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000073.html" target="vbdocright">GetOpenMdcMethod Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000072.html" target="vbdocright">GetOpenNdcMethod Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000071.html" target="vbdocright">IsLoggerAvailable Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">OpenMappedContext Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">OpenNestedContext Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="132" class="header closed" onclick="toggle('c132',this)">
+    <a href="topic_0000000000000080.html" target="vbdocright">TraceEventTypeValues Class</a>
+    </div>
+    <div id="c132" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="133" class="header closed" onclick="toggle('c133',this)">
+    <a href="topic_0000000000000080_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c133" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="134" class="header closed" onclick="toggle('c134',this)">
+    <a href="topic_0000000000000080_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c134" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000086.html" target="vbdocright">Critical Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000085.html" target="vbdocright">Error Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000083.html" target="vbdocright">Information Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000081.html" target="vbdocright">Type Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000082.html" target="vbdocright">Verbose Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000084.html" target="vbdocright">Warning Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="135" class="header closed" onclick="toggle('c135',this)">
+    <a href="topic_000000000000008A.html" target="vbdocright">TypeExtensions Class</a>
+    </div>
+    <div id="c135" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="136" class="header closed" onclick="toggle('c136',this)">
+    <a href="topic_000000000000008A_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c136" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000091.html" target="vbdocright">CreateDelegate Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000092.html" target="vbdocright">GetAssemblyPortable Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000090.html" target="vbdocright">GetBaseTypePortable Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000008B.html" target="vbdocright">GetConstructorPortable Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000008F.html" target="vbdocright">GetFieldsPortable Method</a></div>
+  
+
+						
+						      <div id="137" class="header closed" onclick="toggle('c137',this)">
+    <a href="topic_000000000000008C_overloads--.html" target="vbdocright">GetMethodPortable Method</a>
+    </div>
+    <div id="c137" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000008C.html" target="vbdocright">GetMethodPortable(this Type, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000008D.html" target="vbdocright">GetMethodPortable(this Type, string, params Type[]) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000008E.html" target="vbdocright">GetPropertyPortable Method</a></div>
+  
+
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="138" class="header closed" onclick="toggle('c138',this)">
+    <a href="topic_0000000000000129.html" target="vbdocright">DigitalHealth.MhrFhirClient.Model Namespace</a>
+    </div>
+    <div id="c138" class="item" style="display:none">
+		
+
+						    <div id="139" class="header closed" onclick="toggle('c139',this)">
+    <a href="topic_000000000000012A.html" target="vbdocright">ClassCode Class</a>
+    </div>
+    <div id="c139" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="140" class="header closed" onclick="toggle('c140',this)">
+    <a href="topic_000000000000012A_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c140" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000012B.html" target="vbdocright">Code Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000012C.html" target="vbdocright">CodeSystem Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="141" class="header closed" onclick="toggle('c141',this)">
+    <a href="topic_000000000000012A_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c141" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000012D.html" target="vbdocright">ToString Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="142" class="header closed" onclick="toggle('c142',this)">
+    <a href="topic_000000000000012E.html" target="vbdocright">Identifier Class</a>
+    </div>
+    <div id="c142" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000132.html" target="vbdocright">Identifier Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="143" class="header closed" onclick="toggle('c143',this)">
+    <a href="topic_000000000000012E_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c143" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000131.html" target="vbdocright">IdentifierType Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000130.html" target="vbdocright">Namespace Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000012F.html" target="vbdocright">Value Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="144" class="header closed" onclick="toggle('c144',this)">
+    <a href="topic_000000000000012E_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c144" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000133.html" target="vbdocright">ToString Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="145" class="header closed" onclick="toggle('c145',this)">
+    <a href="topic_000000000000014D.html" target="vbdocright">PatientSearch Class</a>
+    </div>
+    <div id="c145" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="146" class="header closed" onclick="toggle('c146',this)">
+    <a href="topic_0000000000000153_overloads--.html" target="vbdocright">PatientSearch Constructor</a>
+    </div>
+    <div id="c146" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000154.html" target="vbdocright">PatientSearch(Identifier, DateTime, Gender, string, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000153.html" target="vbdocright">PatientSearch(string) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="147" class="header closed" onclick="toggle('c147',this)">
+    <a href="topic_000000000000014D_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c147" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000014F.html" target="vbdocright">Birthdate Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000151.html" target="vbdocright">FamilyName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000150.html" target="vbdocright">Gender Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000152.html" target="vbdocright">GivenName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014E.html" target="vbdocright">Identifier Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="148" class="header closed" onclick="toggle('c148',this)">
+    <a href="topic_000000000000014D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c148" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="149" class="header closed" onclick="toggle('c149',this)">
+    <a href="topic_0000000000000155.html" target="vbdocright">SearchQuery Class</a>
+    </div>
+    <div id="c149" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="150" class="header closed" onclick="toggle('c150',this)">
+    <a href="topic_0000000000000155_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c150" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000159.html" target="vbdocright">Author Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000156.html" target="vbdocright">ClassCode Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000015B.html" target="vbdocright">EndDate Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000158.html" target="vbdocright">Identifier Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000015D.html" target="vbdocright">SlotName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000015E.html" target="vbdocright">SlotValue Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000015A.html" target="vbdocright">StartDate Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000015C.html" target="vbdocright">Status Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000157.html" target="vbdocright">TypeCode Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="151" class="header closed" onclick="toggle('c151',this)">
+    <a href="topic_0000000000000155_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c151" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="152" class="header closed" onclick="toggle('c152',this)">
+    <a href="topic_000000000000015F.html" target="vbdocright">TypeCode Class</a>
+    </div>
+    <div id="c152" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="153" class="header closed" onclick="toggle('c153',this)">
+    <a href="topic_000000000000015F_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c153" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000160.html" target="vbdocright">Code Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000161.html" target="vbdocright">CodeSystem Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="154" class="header closed" onclick="toggle('c154',this)">
+    <a href="topic_000000000000015F_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c154" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000162.html" target="vbdocright">ToString Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="155" class="header closed" onclick="toggle('c155',this)">
+    <a href="topic_0000000000000134.html" target="vbdocright">DigitalHealth.MhrFhirClient.Model.OAuth Namespace</a>
+    </div>
+    <div id="c155" class="item" style="display:none">
+		
+
+						    <div id="156" class="header closed" onclick="toggle('c156',this)">
+    <a href="topic_0000000000000135.html" target="vbdocright">ConsumerOAuthModel Class</a>
+    </div>
+    <div id="c156" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="157" class="header closed" onclick="toggle('c157',this)">
+    <a href="topic_0000000000000135_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c157" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000136.html" target="vbdocright">ClientIdentifier Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000137.html" target="vbdocright">ClientSecret Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013B.html" target="vbdocright">LoginUrl Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000139.html" target="vbdocright">RedirectUrl Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013A.html" target="vbdocright">ScopeUrl Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000138.html" target="vbdocright">TokenEndPointUrl Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="158" class="header closed" onclick="toggle('c158',this)">
+    <a href="topic_0000000000000135_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c158" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="159" class="header closed" onclick="toggle('c159',this)">
+    <a href="topic_000000000000013C.html" target="vbdocright">OAuthResponse Class</a>
+    </div>
+    <div id="c159" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="160" class="header closed" onclick="toggle('c160',this)">
+    <a href="topic_000000000000013C_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c160" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000013D.html" target="vbdocright">AccessToken Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013E.html" target="vbdocright">ExpiresIn Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000141.html" target="vbdocright">RefreshToken Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000140.html" target="vbdocright">Scope Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013F.html" target="vbdocright">TokenType Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="161" class="header closed" onclick="toggle('c161',this)">
+    <a href="topic_000000000000013C_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c161" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="162" class="header closed" onclick="toggle('c162',this)">
+    <a href="topic_0000000000000142.html" target="vbdocright">ProviderOAuthModel Class</a>
+    </div>
+    <div id="c162" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="163" class="header closed" onclick="toggle('c163',this)">
+    <a href="topic_0000000000000142_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c163" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000143.html" target="vbdocright">Certificate Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000145.html" target="vbdocright">ClientIdentifier Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000146.html" target="vbdocright">ClientSecret Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014A.html" target="vbdocright">DeviceIdentifier Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014B.html" target="vbdocright">DeviceMake Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014C.html" target="vbdocright">DeviceModel Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000148.html" target="vbdocright">Hpio Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000149.html" target="vbdocright">OrganisationName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000147.html" target="vbdocright">RedirectUrl Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000144.html" target="vbdocright">TokenProviderEndpointUrl Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="164" class="header closed" onclick="toggle('c164',this)">
+    <a href="topic_0000000000000142_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c164" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="165" class="header closed" onclick="toggle('c165',this)">
+    <a href="topic_0000000000000163.html" target="vbdocright">DigitalHealth.MhrFhirClient.Rest Namespace</a>
+    </div>
+    <div id="c165" class="item" style="display:none">
+		
+
+						    <div id="166" class="header closed" onclick="toggle('c166',this)">
+    <a href="topic_0000000000000168.html" target="vbdocright">RestClient Class</a>
+    </div>
+    <div id="c166" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="167" class="header closed" onclick="toggle('c167',this)">
+    <a href="topic_000000000000016A_overloads--.html" target="vbdocright">RestClient Constructor</a>
+    </div>
+    <div id="c167" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000016A.html" target="vbdocright">RestClient(Uri) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000016B.html" target="vbdocright">RestClient(Uri, HttpMessageHandler) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="168" class="header closed" onclick="toggle('c168',this)">
+    <a href="topic_0000000000000168_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c168" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000169.html" target="vbdocright">EndPointUrl Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="169" class="header closed" onclick="toggle('c169',this)">
+    <a href="topic_0000000000000168_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c169" class="item" style="display:none">
+		
+						
+						  
+    <div class="leaf"><a href="topic_000000000000016D.html" target="vbdocright">ExecuteRequest Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000016C.html" target="vbdocright">ExecuteRequest&lt;T&gt; Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="170" class="header closed" onclick="toggle('c170',this)">
+    <a href="topic_000000000000016E.html" target="vbdocright">RestException Class</a>
+    </div>
+    <div id="c170" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="171" class="header closed" onclick="toggle('c171',this)">
+    <a href="topic_0000000000000171_overloads--.html" target="vbdocright">RestException Constructor</a>
+    </div>
+    <div id="c171" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000171.html" target="vbdocright">RestException(HttpStatusCode, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000172.html" target="vbdocright">RestException(string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000173.html" target="vbdocright">RestException(string, Exception) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="172" class="header closed" onclick="toggle('c172',this)">
+    <a href="topic_000000000000016E_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c172" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		    <div id="173" class="header closed" onclick="toggle('c173',this)">
+    <a href="topic_000000000000016E_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c173" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		    <div id="174" class="header closed" onclick="toggle('c174',this)">
+    <a href="topic_000000000000016E_events--.html" target="vbdocright">Events</a>
+    </div>
+    <div id="c174" class="item" style="display:none">
+		
+						
+			</div>
+		
+
+
+		
+
+
+		    <div id="175" class="header closed" onclick="toggle('c175',this)">
+    <a href="topic_000000000000016E_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c175" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000170.html" target="vbdocright">ResponseContent Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000016F.html" target="vbdocright">StatusCode Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="176" class="header closed" onclick="toggle('c176',this)">
+    <a href="topic_0000000000000174.html" target="vbdocright">RestRequest Class</a>
+    </div>
+    <div id="c176" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000175.html" target="vbdocright">RestRequest Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="177" class="header closed" onclick="toggle('c177',this)">
+    <a href="topic_0000000000000174_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c177" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		    <div id="178" class="header closed" onclick="toggle('c178',this)">
+    <a href="topic_0000000000000174_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c178" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000179.html" target="vbdocright">AddHeader Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000017A.html" target="vbdocright">AddQueryParameter Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+						      <div id="179" class="header closed" onclick="toggle('c179',this)">
+    <a href="topic_0000000000000176_overloads--.html" target="vbdocright">SetJsonBodyParameters Method</a>
+    </div>
+    <div id="c179" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000176.html" target="vbdocright">SetJsonBodyParameters(Dictionary&lt;StringString&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000177.html" target="vbdocright">SetJsonBodyParameters(string, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000178.html" target="vbdocright">SetQueryParameters Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+						    <div id="180" class="header closed" onclick="toggle('c180',this)">
+    <a href="topic_0000000000000164.html" target="vbdocright">IRestClient Interface</a>
+    </div>
+    <div id="c180" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="181" class="header closed" onclick="toggle('c181',this)">
+    <a href="topic_0000000000000164_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c181" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000167.html" target="vbdocright">EndPointUrl Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="182" class="header closed" onclick="toggle('c182',this)">
+    <a href="topic_0000000000000164_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c182" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000166.html" target="vbdocright">ExecuteRequest Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000165.html" target="vbdocright">ExecuteRequest&lt;T&gt; Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="183" class="header closed" onclick="toggle('c183',this)">
+    <a href="topic_000000000000017B.html" target="vbdocright">DigitalHealth.MhrFhirClient.Services Namespace</a>
+    </div>
+    <div id="c183" class="item" style="display:none">
+		
+
+						    <div id="184" class="header closed" onclick="toggle('c184',this)">
+    <a href="topic_000000000000017C.html" target="vbdocright">ClinicalDocumentServices Class</a>
+    </div>
+    <div id="c184" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000017D.html" target="vbdocright">ClinicalDocumentServices Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="185" class="header closed" onclick="toggle('c185',this)">
+    <a href="topic_000000000000017C_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c185" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000017F.html" target="vbdocright">GetDispenses Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000017E.html" target="vbdocright">GetPrescriptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000180.html" target="vbdocright">GetSharedHealthSummaryAllergies Method</a></div>
+  
+
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="186" class="header closed" onclick="toggle('c186',this)">
+    <a href="topic_0000000000000181.html" target="vbdocright">ConsumerDocumentServices Class</a>
+    </div>
+    <div id="c186" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000182.html" target="vbdocright">ConsumerDocumentServices Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="187" class="header closed" onclick="toggle('c187',this)">
+    <a href="topic_0000000000000181_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c187" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000018B.html" target="vbdocright">AddPersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000185.html" target="vbdocright">AddPersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000018A.html" target="vbdocright">CreatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000184.html" target="vbdocright">CreatePersonalHealthSummaryMedications Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000018E.html" target="vbdocright">DeletePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000188.html" target="vbdocright">DeletePersonalHealthSummaryMedication Method</a></div>
+  
+
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000189.html" target="vbdocright">GetPersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000183.html" target="vbdocright">GetPersonalHealthSummaryMedications Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000018C.html" target="vbdocright">UpdatePersonalHealthSummaryAllergies Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000018D.html" target="vbdocright">UpdatePersonalHealthSummaryAllergy Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000187.html" target="vbdocright">UpdatePersonalHealthSummaryMedication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000186.html" target="vbdocright">UpdatePersonalHealthSummaryMedications Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="188" class="header closed" onclick="toggle('c188',this)">
+    <a href="topic_000000000000018F.html" target="vbdocright">GenericDocumentServices Class</a>
+    </div>
+    <div id="c188" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000190.html" target="vbdocright">GenericDocumentServices Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="189" class="header closed" onclick="toggle('c189',this)">
+    <a href="topic_000000000000018F_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c189" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000191.html" target="vbdocright">GetDocument Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000192.html" target="vbdocright">SearchDocuments Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="190" class="header closed" onclick="toggle('c190',this)">
+    <a href="topic_0000000000000193.html" target="vbdocright">IdentificationServices Class</a>
+    </div>
+    <div id="c190" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000194.html" target="vbdocright">IdentificationServices Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="191" class="header closed" onclick="toggle('c191',this)">
+    <a href="topic_0000000000000193_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c191" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000199.html" target="vbdocright">GainAccessToPatientRecord Method</a></div>
+  
+
+						
+						      <div id="192" class="header closed" onclick="toggle('c192',this)">
+    <a href="topic_0000000000000195_overloads--.html" target="vbdocright">GetPatientDetails Method</a>
+    </div>
+    <div id="c192" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000195.html" target="vbdocright">GetPatientDetails(string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000196.html" target="vbdocright">GetPatientDetails() Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000197.html" target="vbdocright">GetRecordList Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000198.html" target="vbdocright">VerifyPatientExists Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="193" class="header closed" onclick="toggle('c193',this)">
+    <a href="topic_000000000000019A.html" target="vbdocright">MedicareInformationServices Class</a>
+    </div>
+    <div id="c193" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000019B.html" target="vbdocright">MedicareInformationServices Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="194" class="header closed" onclick="toggle('c194',this)">
+    <a href="topic_000000000000019A_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c194" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000019D.html" target="vbdocright">GetMbsItems Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000019C.html" target="vbdocright">GetPbsItems Method</a></div>
+  
+
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="195" class="header closed" onclick="toggle('c195',this)">
+    <a href="topic_000000000000019E.html" target="vbdocright">DigitalHealth.MhrFhirClient.Utility Namespace</a>
+    </div>
+    <div id="c195" class="item" style="display:none">
+		
+
+						    <div id="196" class="header closed" onclick="toggle('c196',this)">
+    <a href="topic_000000000000019F.html" target="vbdocright">FhirConstants Class</a>
+    </div>
+    <div id="c196" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="197" class="header closed" onclick="toggle('c197',this)">
+    <a href="topic_000000000000019F_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c197" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="198" class="header closed" onclick="toggle('c198',this)">
+    <a href="topic_000000000000019F_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c198" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001C1.html" target="vbdocright">AccessCodeParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C3.html" target="vbdocright">AccessOperation Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C2.html" target="vbdocright">AccessTypeParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A7.html" target="vbdocright">AuthorParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BC.html" target="vbdocright">BirthdateParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A4.html" target="vbdocright">ClassParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BB.html" target="vbdocright">CoverageIdParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AC.html" target="vbdocright">CoveragePlanParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A6.html" target="vbdocright">CreatedParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B9.html" target="vbdocright">DateFormatSpecifier Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A0.html" target="vbdocright">DateWrittenParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AE.html" target="vbdocright">DocIdParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C0.html" target="vbdocright">ElementsParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BE.html" target="vbdocright">FamilyParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C4.html" target="vbdocright">FhirJsonMediaType Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BD.html" target="vbdocright">GenderParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BF.html" target="vbdocright">GivenParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B7.html" target="vbdocright">GreaterThanOrEqualToPrefix Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A3.html" target="vbdocright">IdentifierParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B6.html" target="vbdocright">IdentifierValue Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AD.html" target="vbdocright">IncludeParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B1.html" target="vbdocright">IncludeParameterValue Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B8.html" target="vbdocright">LessThanOrEqualToPrefix Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B4.html" target="vbdocright">MbsValue Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A2.html" target="vbdocright">PatientParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AB.html" target="vbdocright">PatientReferenceParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B3.html" target="vbdocright">PatientValue Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B5.html" target="vbdocright">PbsValue Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B2.html" target="vbdocright">PractitionerValue Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AF.html" target="vbdocright">ReportTypeParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A9.html" target="vbdocright">SlotNameParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AA.html" target="vbdocright">SlotValueParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B0.html" target="vbdocright">SourceTypeParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A8.html" target="vbdocright">StatusParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BA.html" target="vbdocright">SubjectParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A5.html" target="vbdocright">TypeParameter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A1.html" target="vbdocright">WhenHandedOverParameter Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="199" class="header closed" onclick="toggle('c199',this)">
+    <a href="topic_00000000000001C5.html" target="vbdocright">HttpUtility Class</a>
+    </div>
+    <div id="c199" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="200" class="header closed" onclick="toggle('c200',this)">
+    <a href="topic_00000000000001C5_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c200" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001C6.html" target="vbdocright">BuildUri Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="201" class="header closed" onclick="toggle('c201',this)">
+    <a href="topic_00000000000001C7.html" target="vbdocright">JsonWebTokenUtility Class</a>
+    </div>
+    <div id="c201" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="202" class="header closed" onclick="toggle('c202',this)">
+    <a href="topic_00000000000001C7_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c202" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001C8.html" target="vbdocright">GetJsonWebToken Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001C9.html" target="vbdocright">VerifyToken Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="203" class="header closed" onclick="toggle('c203',this)">
+    <a href="topic_00000000000001CA.html" target="vbdocright">MhrFhirClientHelper Class</a>
+    </div>
+    <div id="c203" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="204" class="header closed" onclick="toggle('c204',this)">
+    <a href="topic_00000000000001CA_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c204" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001CB.html" target="vbdocright">CreatePatientIhi Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001CC.html" target="vbdocright">CreatePatientSearchDemographicDetails Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+ 
+
+  
+		</div>
+ 
+
+
+
+		
+		
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalHealth.MhrFhirClient.Net452", "DigitalHealth.MhrFhirClient\DigitalHealth.MhrFhirClient.Net452.csproj", "{F60F4063-665B-417B-AA20-E03C3D46A149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalHealth.MhrFhirClient.Sample.Provider", "DigitalHealth.MhrFhirClient.Sample\DigitalHealth.MhrFhirClient.Sample.Provider.csproj", "{05A18AAB-7406-4BF6-8982-C506511FCE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalHealth.OAuthClient.Sample", "DigitalHealth.OAuthClient.Sample\DigitalHealth.OAuthClient.Sample.csproj", "{4813D3FF-2B3E-4394-985A-D6FD83E85DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalHealth.MhrFhirClient.Portable", "DigitalHealth.MhrFhirClient\DigitalHealth.MhrFhirClient.Portable.csproj", "{8F9376F6-731B-4B48-A31B-48F1C9D6CED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalHealth.MhrFhirClient.Sample.Consumer", "DigitalHealth.MhrFhirClient.Sample.Consumer\DigitalHealth.MhrFhirClient.Sample.Consumer.csproj", "{BFD5C969-B02D-4AD9-91CF-5EB0327E276F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalHealth.MhrFhirClient.Sample.Shared", "DigitalHealth.MhrFhirClient.Sample.Shared\DigitalHealth.MhrFhirClient.Sample.Shared.csproj", "{302A5866-DCA6-4CAA-8135-43413953FA7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60F4063-665B-417B-AA20-E03C3D46A149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60F4063-665B-417B-AA20-E03C3D46A149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60F4063-665B-417B-AA20-E03C3D46A149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60F4063-665B-417B-AA20-E03C3D46A149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A18AAB-7406-4BF6-8982-C506511FCE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A18AAB-7406-4BF6-8982-C506511FCE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A18AAB-7406-4BF6-8982-C506511FCE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A18AAB-7406-4BF6-8982-C506511FCE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4813D3FF-2B3E-4394-985A-D6FD83E85DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4813D3FF-2B3E-4394-985A-D6FD83E85DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4813D3FF-2B3E-4394-985A-D6FD83E85DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4813D3FF-2B3E-4394-985A-D6FD83E85DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9376F6-731B-4B48-A31B-48F1C9D6CED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9376F6-731B-4B48-A31B-48F1C9D6CED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9376F6-731B-4B48-A31B-48F1C9D6CED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9376F6-731B-4B48-A31B-48F1C9D6CED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD5C969-B02D-4AD9-91CF-5EB0327E276F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD5C969-B02D-4AD9-91CF-5EB0327E276F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD5C969-B02D-4AD9-91CF-5EB0327E276F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD5C969-B02D-4AD9-91CF-5EB0327E276F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302A5866-DCA6-4CAA-8135-43413953FA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302A5866-DCA6-4CAA-8135-43413953FA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302A5866-DCA6-4CAA-8135-43413953FA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302A5866-DCA6-4CAA-8135-43413953FA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95FFD67B-2615-4BA4-A042-EC6C754C1EA4}
+	EndGlobalSection
+EndGlobal

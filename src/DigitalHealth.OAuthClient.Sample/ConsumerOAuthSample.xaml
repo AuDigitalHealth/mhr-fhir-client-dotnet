@@ -1,0 +1,50 @@
+﻿<Window x:Class="DigitalHealth.OAuthClient.Sample.ConsumerAuthorisation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        SnapsToDevicePixels="True" 
+        UseLayoutRounding="True"
+        Title="Consumer OAuth Sample" Height="700" Width="725">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" Margin="5,5,5,5" Click="LoadLoginPage" Style="{StaticResource MhrButton}" Cursor="Hand">Login OAuth</Button>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" Margin="5,0,0,0" Orientation="Horizontal">
+            <Label HorizontalAlignment="Left" Width="110">Authorisation code:</Label>
+            <Label HorizontalAlignment="Left" Name="AuthorisationCodeLabel"></Label>
+        </StackPanel>
+
+        <Button Grid.Column="0" Grid.Row="2" Margin="5,5,5,5" Style="{StaticResource MhrButton}" Click="GetToken">Get Token</Button>
+
+        <StackPanel Grid.Column="0" Grid.Row="3" Margin="5,0,0,0" Orientation="Horizontal">
+            <Label HorizontalAlignment="Left" Width="110">Access Token:</Label>
+            <TextBox IsReadOnly="True" Width="200" HorizontalAlignment="Left" Name="AccessTokenLabel"></TextBox>
+        </StackPanel>
+
+        <Button Grid.Column="0" Grid.Row="4" Margin="5,5,5,5" Style="{StaticResource MhrButton}" Click="GetRefreshToken">Refresh Token</Button>
+
+        <StackPanel Grid.Column="0" Grid.Row="5" Margin="5,0,0,0" Orientation="Horizontal">
+            <Label HorizontalAlignment="Left" Width="110">Refresh Token:</Label>
+            <Label HorizontalAlignment="Left" Name="RefreshTokenLabel"></Label>
+        </StackPanel>
+
+        <WebBrowser Grid.Column="0" Grid.Row="6" Margin="10,10,10,10" Name="WebBrowser" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Navigated="webBrowser_Navigated"/>
+
+    </Grid>
+    
+</Window>

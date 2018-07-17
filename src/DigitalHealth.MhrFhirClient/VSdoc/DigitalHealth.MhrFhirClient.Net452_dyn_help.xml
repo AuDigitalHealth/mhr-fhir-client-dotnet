@@ -1,0 +1,4387 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="DigitalHealth.MhrFhirClient.Net452" Title="DigitalHealth.MhrFhirClient.Net452 Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.AccessCodeParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AccessCodeParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.AccessOperation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AccessOperation Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.OAuthResponse.AccessToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000013D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AccessToken Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Enum.AccessType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000CF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AccessType Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.AccessTypeAndAccessCodeError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000011B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AccessTypeAndAccessCodeError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.AccessTypeParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AccessTypeParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest.AddHeader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000179.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddHeader Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.AddPersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000AD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddPersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.AddPersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000104.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddPersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.AddPersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000018B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddPersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.AddPersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddPersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.AddPersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000109.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddPersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.AddPersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000185.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddPersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest.AddQueryParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000017A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AddQueryParameter Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.Author" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000159.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Author Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.AuthorParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">AuthorParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.Birthdate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000014F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Birthdate Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.BirthdateParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001BC.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">BirthdateParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.HttpUtility.BuildUri" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">BuildUri Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.Certificate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000143.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Certificate Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.ClassCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000012A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClassCode Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.ClassCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000156.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClassCode Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.ClassOrTypeCodeRequiredError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000011C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClassOrTypeCodeRequiredError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.ClassParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClassParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel.ClientIdentifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000136.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClientIdentifier Property {DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.ClientIdentifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000145.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClientIdentifier Property {DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel.ClientSecret" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000137.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClientSecret Property {DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.ClientSecret" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000146.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClientSecret Property {DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000017C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClinicalDocumentServices Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices.ClinicalDocumentServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000017D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ClinicalDocumentServices Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.ClassCode.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000012B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Code Property {DigitalHealth.MhrFhirClient.Model.ClassCode}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.TypeCode.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000160.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Code Property {DigitalHealth.MhrFhirClient.Model.TypeCode}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.ClassCode.CodeSystem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000012C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CodeSystem Property {DigitalHealth.MhrFhirClient.Model.ClassCode}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.TypeCode.CodeSystem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000161.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CodeSystem Property {DigitalHealth.MhrFhirClient.Model.TypeCode}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000181.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ConsumerDocumentServices Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.ConsumerDocumentServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000182.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ConsumerDocumentServices Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.ConsumerOAuthClientFactory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ConsumerOAuthClientFactory Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000135.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ConsumerOAuthModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.CoverageIdParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001BB.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CoverageIdParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.CoveragePlanParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001AC.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CoveragePlanParameter Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.MhrFhirProviderClientFactory.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000EC_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Create Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.MhrFhirProviderClientFactory.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000ED_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Create Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.ConsumerOAuthClientFactory.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Create Method {DigitalHealth.MhrFhirClient.Factory.ConsumerOAuthClientFactory}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.MhrFhirConsumerClientFactory.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000EA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Create Method {DigitalHealth.MhrFhirClient.Factory.MhrFhirConsumerClientFactory}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.ProviderOAuthClientFactory.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000EF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Create Method {DigitalHealth.MhrFhirClient.Factory.ProviderOAuthClientFactory}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.CreateDelegate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000091.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreateDelegate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.CreateLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000003B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreateLogProvider Delegate</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirRestClient.CreateMhrFhirRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreateMhrFhirRequest Method {DigitalHealth.MhrFhirClient.Client.MhrFhirRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient.CreateMhrFhirRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000111.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreateMhrFhirRequest Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.MhrFhirClientHelper.CreatePatientIhi" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001CB.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePatientIhi Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.MhrFhirClientHelper.CreatePatientSearchDemographicDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001CC.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePatientSearchDemographicDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.CreatePersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000AC.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.CreatePersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000103.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.CreatePersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000018A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.CreatePersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.CreatePersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000108.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.CreatePersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000184.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatePersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.CreatedParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CreatedParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues.Critical" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000086.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Critical Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.Culture" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000011A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Culture Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.CurrentLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000033.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">CurrentLogProvider Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.DateFormatSpecifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DateFormatSpecifier Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.DateWrittenParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DateWrittenParameter Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Debug" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000012_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Debug Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Debug" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000013_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Debug Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.DebugException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000015_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DebugException Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.DebugException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000016_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DebugException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.DebugFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000014.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DebugFormat Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.DeletePersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeletePersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.DeletePersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000107.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeletePersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.DeletePersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000018E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeletePersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.DeletePersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000AA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeletePersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.DeletePersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000010C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeletePersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.DeletePersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000188.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeletePersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Extension.EnumExtension.Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Description Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.DeviceIdentifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000014A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeviceIdentifier Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.DeviceMake" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000014B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeviceMake Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.DeviceModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000014C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DeviceModel Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000116.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000096.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Client Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Enum" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000CE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Enum Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Extension Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Factory Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Interface Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000000.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Logging Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000046.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Logging.LogProviders Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000129.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Model Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000134.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Model.OAuth Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Net452 Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001CD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Net452 Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000163.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Rest Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000017B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Services Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000019E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DigitalHealth.MhrFhirClient.Utility Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.DisposableAction" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000093.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DisposableAction Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.DisposableAction.DisposableAction" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000094.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DisposableAction Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.DisposableAction.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000095.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.DocIdParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001AE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">DocIdParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.ElementsParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ElementsParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.EmptyOrNullError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000011D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EmptyOrNullError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.EndDate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000015B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EndDate Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.IRestClient.EndPointUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000167.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EndPointUrl Property {DigitalHealth.MhrFhirClient.Rest.IRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestClient.EndPointUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000169.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EndPointUrl Property {DigitalHealth.MhrFhirClient.Rest.RestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000064.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EntLibLogProvider Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.EntLibLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000065.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EntLibLogProvider Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.EntLibLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000069.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EntLibLogger Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.EntLibLogger.EntLibLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000006A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EntLibLogger Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Extension.EnumExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">EnumExtension Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000017_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Error Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000018_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Error Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues.Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000085.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Error Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClientException.Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000CA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Error Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClientException.ErrorDescription" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ErrorDescription Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.ErrorException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000001A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ErrorException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.ErrorFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000019.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ErrorFormat Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient.ExecuteRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000113.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.IRestClient.ExecuteRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000166.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest Method {DigitalHealth.MhrFhirClient.Rest.IRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestClient.ExecuteRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000016D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest Method {DigitalHealth.MhrFhirClient.Rest.RestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirRestClient.ExecuteRequest<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest<T> Method {DigitalHealth.MhrFhirClient.Client.MhrFhirRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient.ExecuteRequest<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000112.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest<T> Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.IRestClient.ExecuteRequest<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000165.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest<T> Method {DigitalHealth.MhrFhirClient.Rest.IRestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestClient.ExecuteRequest<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000016C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExecuteRequest<T> Method {DigitalHealth.MhrFhirClient.Rest.RestClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.OAuthResponse.ExpiresIn" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000013E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ExpiresIn Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LoggerExecutionWrapper.FailedToGenerateLogMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000042.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FailedToGenerateLogMessage Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.FamilyName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000151.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FamilyName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.FamilyParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001BE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FamilyParameter Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Fatal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000001B_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Fatal Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Fatal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000001C_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Fatal Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.FatalException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000001E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FatalException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.FatalFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000001D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FatalFormat Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000019F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FhirConstants Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.FhirJsonMediaType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FhirJsonMediaType Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.For<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000034.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">For<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogMessageFormatter.FormatStructuredMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000089.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">FormatStructuredMessage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GainAccessToPatientRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GainAccessToPatientRecord Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirProviderClient.GainAccessToPatientRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000010F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GainAccessToPatientRecord Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirProviderClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices.GainAccessToPatientRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000199.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GainAccessToPatientRecord Method {DigitalHealth.MhrFhirClient.Services.IdentificationServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Enum.Gender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000D3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Gender Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.Gender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000150.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Gender Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.GenderParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001BD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GenderParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.GenericDocumentServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000018F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GenericDocumentServices Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.GenericDocumentServices.GenericDocumentServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000190.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GenericDocumentServices Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetAssemblyPortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000092.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetAssemblyPortable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetBaseTypePortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000090.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetBaseTypePortable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetConstructorPortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000008B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetConstructorPortable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.GetCurrentClassLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000035.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetCurrentClassLogger Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetDispenses" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000009A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetDispenses Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetDispenses" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetDispenses Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices.GetDispenses" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000017F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetDispenses Method {DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetDocument" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000009C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetDocument Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetDocument" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetDocument Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.GenericDocumentServices.GetDocument" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000191.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetDocument Method {DigitalHealth.MhrFhirClient.Services.GenericDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetFieldsPortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000008F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetFieldsPortable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.JsonWebTokenUtility.GetJsonWebToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetJsonWebToken Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000037_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000036_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.ILogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000002C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.ILogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000067.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000005D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000004B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000007B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000053.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.GetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000070.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLogger Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient.GetLoginUri" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000BC.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLoginUri Method {DigitalHealth.MhrFhirClient.Client.OAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient.GetLoginUri" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLoginUri Method {DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient.GetLoginUri" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetLoginUri Method {DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetMbsItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetMbsItems Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetMbsItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000FD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetMbsItems Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.MedicareInformationServices.GetMbsItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000019D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetMbsItems Method {DigitalHealth.MhrFhirClient.Services.MedicareInformationServices}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetMethodPortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000008C_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetMethodPortable Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetMethodPortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000008D_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetMethodPortable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.GetOpenMdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000060.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenMdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.GetOpenMdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000004F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenMdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.GetOpenMdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000056.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenMdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.GetOpenMdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000073.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenMdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.GetOpenNdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000005F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenNdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.GetOpenNdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000004E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenNdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.GetOpenNdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000055.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenNdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.GetOpenNdcMethod" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000072.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetOpenNdcMethod Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetPatientDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A1_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPatientDetails Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices.GetPatientDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000196_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPatientDetails Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetPatientDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000009E_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPatientDetails Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices.GetPatientDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000195_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPatientDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetPatientDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000FB.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPatientDetails Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.GetPatientDetails" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000101_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPatientDetails Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetPbsItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPbsItems Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetPbsItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000FC.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPbsItems Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.MedicareInformationServices.GetPbsItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000019C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPbsItems Method {DigitalHealth.MhrFhirClient.Services.MedicareInformationServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetPersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000AB.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetPersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000FF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.GetPersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000189.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetPersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetPersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000FE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.GetPersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000183.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetPrescriptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000099.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPrescriptions Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetPrescriptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPrescriptions Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices.GetPrescriptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000017E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPrescriptions Method {DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions.GetPropertyPortable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000008E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetPropertyPortable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient.GetProviderToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000BF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetProviderToken Method {DigitalHealth.MhrFhirClient.Client.OAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClient.GetProviderToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetProviderToken Method {DigitalHealth.MhrFhirClient.Client.OAuthProviderClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IProviderOAuthClient.GetProviderToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000115.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetProviderToken Method {DigitalHealth.MhrFhirClient.Interface.IProviderOAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetRecordList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetRecordList Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.GetRecordList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000102.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetRecordList Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices.GetRecordList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000197.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetRecordList Method {DigitalHealth.MhrFhirClient.Services.IdentificationServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient.GetRefreshToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000BE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetRefreshToken Method {DigitalHealth.MhrFhirClient.Client.OAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient.GetRefreshToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetRefreshToken Method {DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient.GetRefreshToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetRefreshToken Method {DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.GetSharedHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000009B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetSharedHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.GetSharedHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetSharedHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices.GetSharedHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000180.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetSharedHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Services.ClinicalDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient.GetToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000BD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetToken Method {DigitalHealth.MhrFhirClient.Client.OAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient.GetToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetToken Method {DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient.GetToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GetToken Method {DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.GivenName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000152.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GivenName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.GivenParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001BF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GivenParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.GreaterThanOrEqualToPrefix" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">GreaterThanOrEqualToPrefix Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.Hpio" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000148.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Hpio Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.HttpUtility" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">HttpUtility Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IConsumerOAuthClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IConsumerOAuthClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.ILog" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000002.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ILog Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.ILogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000002B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ILogProvider Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000F5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IMhrFhirBaseClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000100.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IMhrFhirConsumerClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirProviderClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000010D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IMhrFhirProviderClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirRestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000110.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IMhrFhirRestClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IProviderOAuthClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000114.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IProviderOAuthClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.IRestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000164.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IRestClient Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000193.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentificationServices Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices.IdentificationServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000194.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentificationServices Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.Identifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000012E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Identifier Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.Identifier.Identifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000132.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Identifier Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.Identifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000014E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Identifier Property {DigitalHealth.MhrFhirClient.Model.PatientSearch}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.Identifier" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000158.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Identifier Property {DigitalHealth.MhrFhirClient.Model.SearchQuery}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.IdentifierParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentifierParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.IdentifierSearchError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000011E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentifierSearchError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Enum.IdentifierType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000D8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentifierType Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.Identifier.IdentifierType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000131.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentifierType Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.IdentifierValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IdentifierValue Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.IhiWithDemographicError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000011F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IhiWithDemographicError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.IncludeParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001AD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IncludeParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.IncludeParameterValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IncludeParameterValue Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Info" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000001F_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Info Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Info" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000020_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Info Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.InfoException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000022.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">InfoException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.InfoFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000021.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">InfoFormat Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues.Information" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000083.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Information Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.NoOpLogger.Instance" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000003F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Instance Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.IsDebugEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000000C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsDebugEnabled Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.IsDisabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000031.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsDisabled Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.IsErrorEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000000D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsErrorEnabled Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.IsFatalEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000000E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsFatalEnabled Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.IsInfoEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000000F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsInfoEnabled Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.IsLoggerAvailable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000003A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsLoggerAvailable Delegate</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.IsLoggerAvailable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000068.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsLoggerAvailable Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.IsLoggerAvailable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000005E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsLoggerAvailable Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.IsLoggerAvailable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000007C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsLoggerAvailable Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.IsLoggerAvailable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000054.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsLoggerAvailable Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.IsLoggerAvailable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000071.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsLoggerAvailable Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.IsTraceEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000010.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsTraceEnabled Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.IsWarnEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000011.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">IsWarnEnabled Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.JsonWebTokenUtility" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C7.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">JsonWebTokenUtility Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.LessThanOrEqualToPrefix" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LessThanOrEqualToPrefix Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.ILog.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000003.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.ILog}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.NoOpLogger.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000040.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LogProvider.NoOpLogger}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.EntLibLogger.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000006B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.EntLibLogger}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.Log4NetLogger.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000063.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.Log4NetLogger}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.LoupeLogger.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000007F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.LoupeLogger}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.NLogLogger.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000059.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.NLogLogger}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.SerilogLogger.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000076.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.SerilogLogger}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LoggerExecutionWrapper.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000045.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log Method {DigitalHealth.MhrFhirClient.Logging.LoggerExecutionWrapper}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000005A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log4NetLogProvider Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.Log4NetLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000005B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log4NetLogProvider Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.Log4NetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000061.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log4NetLogger Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.Log4NetLogger.Log4NetLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000062.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Log4NetLogger Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.EntLibLogger.LogException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000006C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000000B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogExtensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogLevel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000004.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogLevel Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogMessageFormatter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000087.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogMessageFormatter Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000002F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogProvider Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000047.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogProviderBase Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.LogProviderBase" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000004A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogProviderBase Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.LogProviderResolvers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000003C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LogProviderResolvers Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.Logger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000001.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Logger Delegate</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LoggerExecutionWrapper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000041.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoggerExecutionWrapper Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LoggerExecutionWrapper.LoggerExecutionWrapper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000043.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoggerExecutionWrapper Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel.LoginUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000013B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoginUrl Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000077.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoupeLogProvider Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.LoupeLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000079.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoupeLogProvider Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.LoupeLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000007D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoupeLogger Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.LoupeLogger.LoupeLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000007E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">LoupeLogger Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.MbsValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MbsValue Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.MedicareInformationServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000019A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MedicareInformationServices Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.MedicareInformationServices.MedicareInformationServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000019B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MedicareInformationServices Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Extension.MhrClientDateExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrClientDateExtension Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000097.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirBaseClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.MhrFhirBaseClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000098.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirBaseClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.MhrFhirClientHelper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001CA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirClientHelper Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000117.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirClientResource Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.MhrFhirClientResource" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000118.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirClientResource Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirConsumerClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirConsumerClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirConsumerClient.MhrFhirConsumerClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirConsumerClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.MhrFhirConsumerClientFactory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirConsumerClientFactory Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirException.MhrFhirException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000126_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirException.MhrFhirException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000127_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirException.MhrFhirException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000128_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000123.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirProviderClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirProviderClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirProviderClient.MhrFhirProviderClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B4.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirProviderClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.MhrFhirProviderClientFactory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000EB.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirProviderClientFactory Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirRestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirRestClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirRestClient.MhrFhirRestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MhrFhirRestClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Extension.MhrClientDateExtension.MrhClientDateToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000E5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">MrhClientDateToString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000050.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NLogLogProvider Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.NLogLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000051.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NLogLogProvider Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.NLogLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000057.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NLogLogger Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.NLogLogger.NLogLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000058.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NLogLogger Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.Identifier.Namespace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000130.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Namespace Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.NoIhiError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000120.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NoIhiError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.NoOpLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000003E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NoOpLogger Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.NullError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000121.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">NullError Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient.OAuthClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000BA_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient.OAuthClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000BB_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000B9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthConsumerClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthConsumerClient.OAuthConsumerClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthConsumerClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthProviderClient Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClient.OAuthProviderClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C6.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthProviderClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClientException.OAuthProviderClientException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000CB_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthProviderClientException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClientException.OAuthProviderClientException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000CC_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthProviderClientException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClientException.OAuthProviderClientException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000CD_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthProviderClientException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.OAuthProviderClientException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000C8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthProviderClientException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.OAuthResponse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000013C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OAuthResponse Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.OnCurrentLogProviderSet" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000032.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OnCurrentLogProviderSet Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.ILogProvider.OpenMappedContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000002E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenMappedContext Method {DigitalHealth.MhrFhirClient.Logging.ILogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.OpenMappedContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000004D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenMappedContext Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.OpenMappedContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000039.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenMappedContext Method {DigitalHealth.MhrFhirClient.Logging.LogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.OpenMdc" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000049.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenMdc Delegate</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.OpenNdc" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000048.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenNdc Delegate</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.ILogProvider.OpenNestedContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000002D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenNestedContext Method {DigitalHealth.MhrFhirClient.Logging.ILogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase.OpenNestedContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000004C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenNestedContext Method {DigitalHealth.MhrFhirClient.Logging.LogProviders.LogProviderBase}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.OpenNestedContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000038.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OpenNestedContext Method {DigitalHealth.MhrFhirClient.Logging.LogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirException.OperationOutcome" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000124.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OperationOutcome Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.OrganisationName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000149.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">OrganisationName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.PatientIdOrPatientSearchRequiredError" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000122.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientIdOrPatientSearchRequiredError Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.PatientParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.PatientReferenceParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001AB.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientReferenceParameter Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.PatientSearch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000154_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientSearch Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch.PatientSearch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000153_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientSearch Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.PatientSearch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000014D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientSearch Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.PatientValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B3.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PatientValue Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.PbsValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PbsValue Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.PractitionerValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B2.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">PractitionerValue Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider.ProviderIsAvailableOverride" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000066.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderIsAvailableOverride Property {DigitalHealth.MhrFhirClient.Logging.LogProviders.EntLibLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider.ProviderIsAvailableOverride" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000005C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderIsAvailableOverride Property {DigitalHealth.MhrFhirClient.Logging.LogProviders.Log4NetLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.ProviderIsAvailableOverride" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000007A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderIsAvailableOverride Property {DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider.ProviderIsAvailableOverride" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000052.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderIsAvailableOverride Property {DigitalHealth.MhrFhirClient.Logging.LogProviders.NLogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.ProviderIsAvailableOverride" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000006F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderIsAvailableOverride Property {DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Factory.ProviderOAuthClientFactory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000EE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderOAuthClientFactory Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000142.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ProviderOAuthModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel.RedirectUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000139.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RedirectUrl Property {DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.RedirectUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000147.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RedirectUrl Property {DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.OAuthResponse.RefreshToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000141.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RefreshToken Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.ReportTypeParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001AF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ReportTypeParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.ResolveLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000003D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ResolveLogProvider Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirClientResource.ResourceManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000119.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ResourceManager Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestException.ResponseContent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000170.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ResponseContent Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestClient.RestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000016A_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestClient.RestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000016B_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestClient Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestClient" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000168.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestClient Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestException.RestException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000171_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestException.RestException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000172_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestException Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestException.RestException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000173_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000016E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000174.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestRequest Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest.RestRequest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000175.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">RestRequest Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.OAuthResponse.Scope" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000140.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Scope Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel.ScopeUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000013A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ScopeUrl Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.SearchDocuments" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000009D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SearchDocuments Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient.SearchDocuments" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000FA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SearchDocuments Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.GenericDocumentServices.SearchDocuments" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000192.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SearchDocuments Method {DigitalHealth.MhrFhirClient.Services.GenericDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000155.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SearchQuery Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000006D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SerilogLogProvider Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.SerilogLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000006E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SerilogLogProvider Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.SerilogLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000074.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SerilogLogger Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.SerilogLogProvider.SerilogLogger.SerilogLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000075.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SerilogLogger Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProvider.SetCurrentLogProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000030.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SetCurrentLogProvider Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest.SetJsonBodyParameters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000176_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SetJsonBodyParameters Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest.SetJsonBodyParameters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000177_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SetJsonBodyParameters Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestRequest.SetQueryParameters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000178.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SetQueryParameters Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LogMessageFormatter.SimulateStructuredLogging" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000088.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SimulateStructuredLogging Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.SlotName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000015D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SlotName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.SlotNameParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SlotNameParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.SlotValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000015E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SlotValue Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.SlotValueParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001AA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SlotValueParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.SourceTypeParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001B0.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SourceTypeParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.StartDate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000015A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">StartDate Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Enum.Status" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000DD.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Status Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.Status" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000015C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Status Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Rest.RestException.StatusCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000016F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">StatusCode Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.MhrFhirException.StatusDescription" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000125.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">StatusDescription Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.StatusParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">StatusParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.SubjectParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001BA.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">SubjectParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.ClassCode.ToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000012D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ToString Method {DigitalHealth.MhrFhirClient.Model.ClassCode}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.Identifier.ToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000133.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ToString Method {DigitalHealth.MhrFhirClient.Model.Identifier}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.TypeCode.ToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000162.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">ToString Method {DigitalHealth.MhrFhirClient.Model.TypeCode}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ConsumerOAuthModel.TokenEndPointUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000138.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TokenEndPointUrl Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.ProviderOAuthModel.TokenProviderEndpointUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000144.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TokenProviderEndpointUrl Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.OAuth.OAuthResponse.TokenType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000013F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TokenType Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Trace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000023_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Trace Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Trace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000024_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Trace Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000080.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TraceEventTypeValues Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.TraceException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000026.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TraceException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.TraceFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000025.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TraceFormat Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues.Type" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000081.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Type Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.TypeCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000015F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TypeCode Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.SearchQuery.TypeCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000157.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TypeCode Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TypeExtensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000008A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TypeExtensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.TypeParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A5.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">TypeParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.UpdatePersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000AE.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.UpdatePersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000105.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.UpdatePersonalHealthSummaryAllergies" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000018C.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryAllergies Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.UpdatePersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000AF.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.UpdatePersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000106.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.UpdatePersonalHealthSummaryAllergy" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000018D.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryAllergy Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.UpdatePersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.UpdatePersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000010B.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.UpdatePersonalHealthSummaryMedication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000187.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryMedication Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.UpdatePersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000000A8.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient.UpdatePersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000010A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirConsumerClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices.UpdatePersonalHealthSummaryMedications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000186.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">UpdatePersonalHealthSummaryMedications Method {DigitalHealth.MhrFhirClient.Services.ConsumerDocumentServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Model.Identifier.Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000012F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Value Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues.Verbose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000082.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Verbose Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient.VerifyPatientExists" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000009F.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">VerifyPatientExists Method {DigitalHealth.MhrFhirClient.Client.MhrFhirBaseClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Interface.IMhrFhirProviderClient.VerifyPatientExists" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000010E.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">VerifyPatientExists Method {DigitalHealth.MhrFhirClient.Interface.IMhrFhirProviderClient}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Services.IdentificationServices.VerifyPatientExists" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000198.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">VerifyPatientExists Method {DigitalHealth.MhrFhirClient.Services.IdentificationServices}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.JsonWebTokenUtility.VerifyToken" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001C9.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">VerifyToken Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Warn" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000027_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Warn Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.Warn" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000028_overloads--.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Warn Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.WarnException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_000000000000002A.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">WarnException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogExtensions.WarnFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000029.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">WarnFormat Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.TraceEventTypeValues.Warning" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000084.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">Warning Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Utility.FhirConstants.WhenHandedOverParameter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_00000000000001A1.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">WhenHandedOverParameter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LoggerExecutionWrapper.WrappedLogger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000044.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">WrappedLogger Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="DigitalHealth.MhrFhirClient.Logging.LogProviders.LoupeLogProvider.WriteDelegate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:DigitalHealth.MhrFhirClient.Net452.chm::/topic_0000000000000078.html" LinkGroup="DigitalHealth.MhrFhirClient.Net452">WriteDelegate Delegate</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

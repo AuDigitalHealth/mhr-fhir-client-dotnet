@@ -1,0 +1,337 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "Hl7.Fhir.Specification.STU3/0.90.5-alpha4": {
+        "type": "package",
+        "dependencies": {
+          "Hl7.Fhir.STU3": "0.90.5-alpha4",
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "compile": {
+          "lib/net45/Hl7.Fhir.STU3.Specification.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hl7.Fhir.STU3.Specification.dll": {}
+        }
+      },
+      "Hl7.Fhir.STU3/0.90.5-alpha4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "compile": {
+          "lib/net45/Hl7.Fhir.STU3.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hl7.Fhir.STU3.Core.dll": {}
+        }
+      },
+      "LibLog/4.2.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ]
+      },
+      "Microsoft.IdentityModel.Logging/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.2",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.2"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win": {
+      "Hl7.Fhir.Specification.STU3/0.90.5-alpha4": {
+        "type": "package",
+        "dependencies": {
+          "Hl7.Fhir.STU3": "0.90.5-alpha4",
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "compile": {
+          "lib/net45/Hl7.Fhir.STU3.Specification.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hl7.Fhir.STU3.Specification.dll": {}
+        }
+      },
+      "Hl7.Fhir.STU3/0.90.5-alpha4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "compile": {
+          "lib/net45/Hl7.Fhir.STU3.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hl7.Fhir.STU3.Core.dll": {}
+        }
+      },
+      "LibLog/4.2.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ]
+      },
+      "Microsoft.IdentityModel.Logging/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.2",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.2"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hl7.Fhir.Specification.STU3/0.90.5-alpha4": {
+      "sha512": "L2/vNCnLShniOH4w+1xfi3sDm0k2CwL1pur8Zkr6+pXIKOScqIk3avEMkQj0Od6xYaQ6hVy++WPKXKvhWtmVQQ==",
+      "type": "package",
+      "path": "hl7.fhir.specification.stu3/0.90.5-alpha4",
+      "files": [
+        "Hl7.Fhir.Specification.STU3.0.90.5-alpha4.nupkg.sha512",
+        "Hl7.Fhir.Specification.STU3.nuspec",
+        "content/validation.xml.zip",
+        "lib/net40/Hl7.Fhir.STU3.Specification.dll",
+        "lib/net40/Hl7.Fhir.STU3.Specification.xml",
+        "lib/net45/Hl7.Fhir.STU3.Specification.dll",
+        "lib/net45/Hl7.Fhir.STU3.Specification.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "Hl7.Fhir.STU3/0.90.5-alpha4": {
+      "sha512": "Bx+FddZaOETp+56gnE5KOBHP2I8IByhMjLV9ab4mfV14OKCacZZ7yd5Km62imHg3TCJVe1sPA7k6iTkbPUlakw==",
+      "type": "package",
+      "path": "hl7.fhir.stu3/0.90.5-alpha4",
+      "files": [
+        "Hl7.Fhir.STU3.0.90.5-alpha4.nupkg.sha512",
+        "Hl7.Fhir.STU3.nuspec",
+        "lib/MonoAndroid/Hl7.Fhir.STU3.Core.dll",
+        "lib/MonoAndroid/Hl7.Fhir.STU3.Core.xml",
+        "lib/Xamarin.Mac20/Hl7.Fhir.STU3.Core.dll",
+        "lib/Xamarin.Mac20/Hl7.Fhir.STU3.Core.xml",
+        "lib/Xamarin.iOS10/Hl7.Fhir.STU3.Core.dll",
+        "lib/Xamarin.iOS10/Hl7.Fhir.STU3.Core.xml",
+        "lib/dotnet/Hl7.Fhir.STU3.Core.dll",
+        "lib/dotnet/Hl7.Fhir.STU3.Core.xml",
+        "lib/net40/Hl7.Fhir.STU3.Core.dll",
+        "lib/net40/Hl7.Fhir.STU3.Core.xml",
+        "lib/net45/Hl7.Fhir.STU3.Core.dll",
+        "lib/net45/Hl7.Fhir.STU3.Core.xml",
+        "lib/netcore45/Hl7.Fhir.STU3.Core.dll",
+        "lib/netcore45/Hl7.Fhir.STU3.Core.xml",
+        "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.dll",
+        "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.xml",
+        "lib/portable-win81+wpa81/Hl7.Fhir.STU3.Core.dll",
+        "lib/portable-win81+wpa81/Hl7.Fhir.STU3.Core.xml",
+        "lib/win81/Hl7.Fhir.STU3.Core.dll",
+        "lib/win81/Hl7.Fhir.STU3.Core.xml",
+        "lib/wp8/Hl7.Fhir.STU3.Core.dll",
+        "lib/wp8/Hl7.Fhir.STU3.Core.xml",
+        "lib/wpa81/Hl7.Fhir.STU3.Core.dll",
+        "lib/wpa81/Hl7.Fhir.STU3.Core.xml"
+      ]
+    },
+    "LibLog/4.2.6": {
+      "sha512": "z2pUqnrQhd8ti2jsjLVCVlNC5rqynGZvnZtd5Q1OJ0SCUH7WDYS+2fRJWWkTPBwWjdk0qMJA8GO0CIt6hWcDig==",
+      "type": "package",
+      "path": "liblog/4.2.6",
+      "files": [
+        "LibLog.4.2.6.nupkg.sha512",
+        "LibLog.nuspec",
+        "content/App_Packages/LibLog.4.2/LibLog.cs.pp"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/1.1.2": {
+      "sha512": "QPMFfRVnRkCzGpEQz/YEPsbwUjAp5R1W2dpaXHlJJNA7fp9gV4m4TDKvvXhQnqdEL0a0luNrYFZrbz7NRI1rXQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/1.1.2",
+      "files": [
+        "Microsoft.IdentityModel.Logging.1.1.2.nupkg.sha512",
+        "Microsoft.IdentityModel.Logging.nuspec",
+        "lib/net451/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/5.1.2": {
+      "sha512": "m7UP4iY/dWfVwDNNSVGvZV6r4PwflaK++sYQsTTGAMILYb5IJ4Z4rKJRCA0uKjo6jTcdWlQxyPsxoEVwjqPKqQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/5.1.2",
+      "files": [
+        "Microsoft.IdentityModel.Tokens.5.1.2.nupkg.sha512",
+        "Microsoft.IdentityModel.Tokens.nuspec",
+        "lib/net451/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net451/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "files": [
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/5.1.2": {
+      "sha512": "wneX9Rv1p8zXNQ8v3mzKPlja3dP0dQY0Ea/0KUtCtlyqB9WtYoEWxTidqgq5iBHGvG5p/yuFKfedgvt2y68HpA==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/5.1.2",
+      "files": [
+        "System.IdentityModel.Tokens.Jwt.5.1.2.nupkg.sha512",
+        "System.IdentityModel.Tokens.Jwt.nuspec",
+        "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net451/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Hl7.Fhir.STU3 >= 0.90.5-alpha4",
+      "Hl7.Fhir.Specification.STU3 >= 0.90.5-alpha4",
+      "LibLog >= 4.2.6",
+      "Newtonsoft.Json >= 9.0.1",
+      "System.IdentityModel.Tokens.Jwt >= 5.1.2"
+    ],
+    ".NETFramework,Version=v4.5.2": []
+  },
+  "packageFolders": {
+    "C:\\Users\\philipwilford\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\DigitalHealth.MhrFhirClient.Net452.csproj",
+      "projectName": "DigitalHealth.MhrFhirClient.Net452",
+      "projectPath": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\DigitalHealth.MhrFhirClient.Net452.csproj",
+      "projectJsonPath": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\DigitalHealth.MhrFhirClient.Net452.project.json",
+      "packagesPath": "C:\\Users\\philipwilford\\.nuget\\packages\\",
+      "outputPath": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\obj\\",
+      "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\philipwilford\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nehta-drp-iis.nehta.net.au/NuGetServer/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "dependencies": {
+      "Hl7.Fhir.STU3": "[0.90.5-alpha4, )",
+      "Hl7.Fhir.Specification.STU3": "[0.90.5-alpha4, )",
+      "LibLog": "[4.2.6, )",
+      "Newtonsoft.Json": "[9.0.1, )",
+      "System.IdentityModel.Tokens.Jwt": "[5.1.2, )"
+    },
+    "frameworks": {
+      "net452": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
+}

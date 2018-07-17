@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F60F4063-665B-417B-AA20-E03C3D46A149}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigitalHealth.MhrFhirClient</RootNamespace>
+    <AssemblyName>DigitalHealth.MhrFhirClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\Net452\</OutputPath>
+    <IntermediateOutputPath>obj\Debug\Net452\</IntermediateOutputPath>
+    <DefineConstants>TRACE;DEBUG;NET452;LIBLOG_PUBLIC</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\Net452\</OutputPath>
+    <IntermediateOutputPath>obj\Release\Net452\</IntermediateOutputPath>
+    <DefineConstants>TRACE;NET452;LIBLOG_PUBLIC</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\OAuthProviderClientException.cs" />
+    <Compile Include="Interface\IMhrFhirRestClient.cs" />
+    <Compile Include="Client\MhrFhirBaseClient.cs" />
+    <Compile Include="Client\MhrFhirConsumerClient.cs" />
+    <Compile Include="Factory\ConsumerOAuthClientFactory.cs" />
+    <Compile Include="Enum\AccessType.cs" />
+    <Compile Include="App_Packages\LibLog.4.2\LibLog.cs" />
+    <Compile Include="Enum\Status.cs" />
+    <Compile Include="Enum\IdentifierType.cs" />
+    <Compile Include="Interface\IMhrFhirBaseClient.cs" />
+    <Compile Include="Interface\IMhrFhirConsumerClient.cs" />
+    <Compile Include="MhrFhirClientResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MhrFhirClientResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Factory\MhrFhirConsumerClientFactory.cs" />
+    <Compile Include="Factory\MhrFhirProviderClientFactory.cs" />
+    <Compile Include="Model\Identifier.cs" />
+    <Compile Include="Model\ClassCode.cs" />
+    <Compile Include="Extension\EnumExtension.cs" />
+    <Compile Include="Enum\Gender.cs" />
+    <Compile Include="Interface\IMhrFhirProviderClient.cs" />
+    <Compile Include="Client\MhrFhirProviderClient.cs" />
+    <Compile Include="Client\MhrFhirRestClient.cs" />
+    <Compile Include="Extension\MhrClientDateExtension.cs" />
+    <Compile Include="Utility\MhrFhirClientHelper.cs" />
+    <Compile Include="MhrFhirException.cs" />
+    <Compile Include="Model\PatientSearch.cs" />
+    <Compile Include="Client\OAuthClient.cs" />
+    <Compile Include="Client\OAuthConsumerClient.cs" />
+    <Compile Include="Client\OAuthProviderClient.cs" />
+    <Compile Include="Interface\IConsumerOAuthClient.cs" />
+    <Compile Include="Interface\IProviderOAuthClient.cs" />
+    <Compile Include="Model\OAuth\ConsumerOAuthModel.cs" />
+    <Compile Include="Model\OAuth\OAuthResponse.cs" />
+    <Compile Include="Model\OAuth\ProviderOAuthModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\SearchQuery.cs" />
+    <Compile Include="Factory\ProviderOAuthClientFactory.cs" />
+    <Compile Include="Rest\IRestClient.cs" />
+    <Compile Include="Rest\RestClient.cs" />
+    <Compile Include="Rest\RestException.cs" />
+    <Compile Include="Rest\RestRequest.cs" />
+    <Compile Include="Services\ClinicalDocumentServices.cs" />
+    <Compile Include="Services\ConsumerDocumentServices.cs" />
+    <Compile Include="Services\GenericDocumentServices.cs" />
+    <Compile Include="Services\IdentificationServices.cs" />
+    <Compile Include="Services\MedicareInformationServices.cs" />
+    <Compile Include="Model\TypeCode.cs" />
+    <Compile Include="Utility\FhirConstants.cs" />
+    <Compile Include="Utility\HttpUtility.cs" />
+    <Compile Include="Utility\JsonWebTokenUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MhrFhirClientResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MhrFhirClientResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

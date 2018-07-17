@@ -1,0 +1,13 @@
+﻿{
+  "dependencies": {
+    "Hl7.Fhir.STU3": "0.90.5-alpha4",
+    "LibLog": "4.2.6",
+    "Newtonsoft.Json": "9.0.1"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.5,Profile=Profile259": {}
+  },
+  "runtimes": { 
+    "win": {} 
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.5,Profile=Profile259": {
+      "Hl7.Fhir.STU3/0.90.5-alpha4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Net.Http": "2.2.28",
+          "Newtonsoft.Json": "8.0.2",
+          "Portable-Strong.DataAnnotations": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.dll": {}
+        }
+      },
+      "LibLog/4.2.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ]
+      },
+      "Microsoft.Bcl/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/_._": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
+      "Microsoft.Net.Http/2.2.28": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable-Strong.DataAnnotations/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+wpa81/Portable.DataAnnotations.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+wpa81/Portable.DataAnnotations.dll": {}
+        }
+      }
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile259/win": {
+      "Hl7.Fhir.STU3/0.90.5-alpha4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Net.Http": "2.2.28",
+          "Newtonsoft.Json": "8.0.2",
+          "Portable-Strong.DataAnnotations": "1.0.0"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.dll": {}
+        }
+      },
+      "LibLog/4.2.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ]
+      },
+      "Microsoft.Bcl/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/_._": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
+      "Microsoft.Net.Http/2.2.28": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll": {},
+          "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable-Strong.DataAnnotations/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wp8+wpa81/Portable.DataAnnotations.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+wpa81/Portable.DataAnnotations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hl7.Fhir.STU3/0.90.5-alpha4": {
+      "sha512": "Bx+FddZaOETp+56gnE5KOBHP2I8IByhMjLV9ab4mfV14OKCacZZ7yd5Km62imHg3TCJVe1sPA7k6iTkbPUlakw==",
+      "type": "package",
+      "path": "hl7.fhir.stu3/0.90.5-alpha4",
+      "files": [
+        "Hl7.Fhir.STU3.0.90.5-alpha4.nupkg.sha512",
+        "Hl7.Fhir.STU3.nuspec",
+        "lib/MonoAndroid/Hl7.Fhir.STU3.Core.dll",
+        "lib/MonoAndroid/Hl7.Fhir.STU3.Core.xml",
+        "lib/Xamarin.Mac20/Hl7.Fhir.STU3.Core.dll",
+        "lib/Xamarin.Mac20/Hl7.Fhir.STU3.Core.xml",
+        "lib/Xamarin.iOS10/Hl7.Fhir.STU3.Core.dll",
+        "lib/Xamarin.iOS10/Hl7.Fhir.STU3.Core.xml",
+        "lib/dotnet/Hl7.Fhir.STU3.Core.dll",
+        "lib/dotnet/Hl7.Fhir.STU3.Core.xml",
+        "lib/net40/Hl7.Fhir.STU3.Core.dll",
+        "lib/net40/Hl7.Fhir.STU3.Core.xml",
+        "lib/net45/Hl7.Fhir.STU3.Core.dll",
+        "lib/net45/Hl7.Fhir.STU3.Core.xml",
+        "lib/netcore45/Hl7.Fhir.STU3.Core.dll",
+        "lib/netcore45/Hl7.Fhir.STU3.Core.xml",
+        "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.dll",
+        "lib/portable-net45+win+wpa81+wp80/Hl7.Fhir.STU3.Core.xml",
+        "lib/portable-win81+wpa81/Hl7.Fhir.STU3.Core.dll",
+        "lib/portable-win81+wpa81/Hl7.Fhir.STU3.Core.xml",
+        "lib/win81/Hl7.Fhir.STU3.Core.dll",
+        "lib/win81/Hl7.Fhir.STU3.Core.xml",
+        "lib/wp8/Hl7.Fhir.STU3.Core.dll",
+        "lib/wp8/Hl7.Fhir.STU3.Core.xml",
+        "lib/wpa81/Hl7.Fhir.STU3.Core.dll",
+        "lib/wpa81/Hl7.Fhir.STU3.Core.xml"
+      ]
+    },
+    "LibLog/4.2.6": {
+      "sha512": "z2pUqnrQhd8ti2jsjLVCVlNC5rqynGZvnZtd5Q1OJ0SCUH7WDYS+2fRJWWkTPBwWjdk0qMJA8GO0CIt6hWcDig==",
+      "type": "package",
+      "path": "liblog/4.2.6",
+      "files": [
+        "LibLog.4.2.6.nupkg.sha512",
+        "LibLog.nuspec",
+        "content/App_Packages/LibLog.4.2/LibLog.cs.pp"
+      ]
+    },
+    "Microsoft.Bcl/1.1.9": {
+      "sha512": "USQ55innJy8K+tAXvVa1O8dUTp2s7pmJ5cJj6Tl02HtGc2xBDj0P2QH5620HbGXIWKWYhydoeQF8Rm/JRDBGhw==",
+      "type": "package",
+      "path": "microsoft.bcl/1.1.9",
+      "files": [
+        "License-Stable.rtf",
+        "Microsoft.Bcl.1.1.9.nupkg.sha512",
+        "Microsoft.Bcl.nuspec",
+        "content/monoandroid/_._",
+        "content/monotouch/_._",
+        "content/net45/_._",
+        "content/portable-net45+win8+wp8+wpa81/_._",
+        "content/portable-net45+win8+wpa81/_._",
+        "content/portable-net451+win81+wpa81/_._",
+        "content/portable-net451+win81/_._",
+        "content/portable-win81+wp81+wpa81/_._",
+        "content/sl4/_._",
+        "content/sl5/_._",
+        "content/win8/_._",
+        "content/wp8/_._",
+        "content/wpa81/_._",
+        "lib/monoandroid/_._",
+        "lib/monotouch/_._",
+        "lib/net40/System.IO.dll",
+        "lib/net40/System.IO.xml",
+        "lib/net40/System.Runtime.dll",
+        "lib/net40/System.Runtime.xml",
+        "lib/net40/System.Threading.Tasks.dll",
+        "lib/net40/System.Threading.Tasks.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net45/_._",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8/System.IO.dll",
+        "lib/portable-net40+sl4+win8/System.IO.xml",
+        "lib/portable-net40+sl4+win8/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8/ensureRedirect.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+win8/System.IO.dll",
+        "lib/portable-net40+win8/System.IO.xml",
+        "lib/portable-net40+win8/System.Runtime.dll",
+        "lib/portable-net40+win8/System.Runtime.xml",
+        "lib/portable-net40+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8/ensureRedirect.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/portable-net451+win81+wpa81/_._",
+        "lib/portable-net451+win81/_._",
+        "lib/portable-win81+wp81+wpa81/_._",
+        "lib/sl4-windowsphone71/System.IO.dll",
+        "lib/sl4-windowsphone71/System.IO.xml",
+        "lib/sl4-windowsphone71/System.Runtime.dll",
+        "lib/sl4-windowsphone71/System.Runtime.xml",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.dll",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.xml",
+        "lib/sl4-windowsphone71/ensureRedirect.xml",
+        "lib/sl4/System.IO.dll",
+        "lib/sl4/System.IO.xml",
+        "lib/sl4/System.Runtime.dll",
+        "lib/sl4/System.Runtime.xml",
+        "lib/sl4/System.Threading.Tasks.dll",
+        "lib/sl4/System.Threading.Tasks.xml",
+        "lib/sl5/System.IO.dll",
+        "lib/sl5/System.IO.xml",
+        "lib/sl5/System.Runtime.dll",
+        "lib/sl5/System.Runtime.xml",
+        "lib/sl5/System.Threading.Tasks.dll",
+        "lib/sl5/System.Threading.Tasks.xml",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/wpa81/_._"
+      ]
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "sha512": "cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "type": "package",
+      "path": "microsoft.bcl.build/1.0.14",
+      "files": [
+        "License-Stable.rtf",
+        "Microsoft.Bcl.Build.1.0.14.nupkg.sha512",
+        "Microsoft.Bcl.Build.nuspec",
+        "content/net40/_._",
+        "content/netcore45/_._",
+        "content/portable-net40+win8+sl4+wp71+wpa81/_._",
+        "content/sl4-windowsphone71/_._",
+        "content/sl4/_._",
+        "tools/Install.ps1",
+        "tools/Microsoft.Bcl.Build.Tasks.dll",
+        "tools/Microsoft.Bcl.Build.targets",
+        "tools/Uninstall.ps1"
+      ]
+    },
+    "Microsoft.Net.Http/2.2.28": {
+      "sha512": "hPL9k+rPIpAj84RZSq3WtJkOD9uMStBovAIAz/0OQ+9hQIwQ2XqQlAhMqI4kw0XDxweJySIqNTMlkhRRuthcPQ==",
+      "type": "package",
+      "path": "microsoft.net.http/2.2.28",
+      "files": [
+        "License-Stable.rtf",
+        "Microsoft.Net.Http.2.2.28.nupkg.sha512",
+        "Microsoft.Net.Http.nuspec",
+        "lib/monoandroid/System.Net.Http.Extensions.XML",
+        "lib/monoandroid/System.Net.Http.Extensions.dll",
+        "lib/monoandroid/System.Net.Http.Primitives.dll",
+        "lib/monoandroid/System.Net.Http.Primitives.xml",
+        "lib/monotouch/System.Net.Http.Extensions.XML",
+        "lib/monotouch/System.Net.Http.Extensions.dll",
+        "lib/monotouch/System.Net.Http.Primitives.dll",
+        "lib/monotouch/System.Net.Http.Primitives.xml",
+        "lib/net40/System.Net.Http.Extensions.XML",
+        "lib/net40/System.Net.Http.Extensions.dll",
+        "lib/net40/System.Net.Http.Primitives.dll",
+        "lib/net40/System.Net.Http.Primitives.xml",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net45/System.Net.Http.Extensions.XML",
+        "lib/net45/System.Net.Http.Extensions.dll",
+        "lib/net45/System.Net.Http.Primitives.dll",
+        "lib/net45/System.Net.Http.Primitives.xml",
+        "lib/net45/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.XML",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.XML",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.xml",
+        "lib/portable-net45+win8+wpa81/ensureRedirect.xml",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.xml",
+        "lib/portable-net45+win8/ensureRedirect.xml",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.xml",
+        "lib/win8/System.Net.Http.Extensions.XML",
+        "lib/win8/System.Net.Http.Extensions.dll",
+        "lib/win8/System.Net.Http.Primitives.dll",
+        "lib/win8/System.Net.Http.Primitives.xml",
+        "lib/wpa81/System.Net.Http.Extensions.XML",
+        "lib/wpa81/System.Net.Http.Extensions.dll",
+        "lib/wpa81/System.Net.Http.Primitives.dll",
+        "lib/wpa81/System.Net.Http.Primitives.xml"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "files": [
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "Portable-Strong.DataAnnotations/1.0.0": {
+      "sha512": "ukpPemOclW4hjSzRLFS8CPM3UCdHC4+vj4mDzuQtHjAZcWofEh7uWkJMq9TUtkADyq2kJmbE4Yhdvr3bh7fRpg==",
+      "type": "package",
+      "path": "portable-strong.dataannotations/1.0.0",
+      "files": [
+        "Portable-Strong.DataAnnotations.1.0.0.nupkg.sha512",
+        "Portable-Strong.DataAnnotations.nuspec",
+        "lib/MonoAndroid/Portable.DataAnnotations.dll",
+        "lib/MonoAndroid/Portable.DataAnnotations.pdb",
+        "lib/Xamarin.Mac20/Portable.DataAnnotations.dll",
+        "lib/Xamarin.Mac20/Portable.DataAnnotations.pdb",
+        "lib/Xamarin.iOS10/Portable.DataAnnotations.dll",
+        "lib/Xamarin.iOS10/Portable.DataAnnotations.pdb",
+        "lib/net40/Portable.DataAnnotations.dll",
+        "lib/net40/Portable.DataAnnotations.pdb",
+        "lib/net45/Portable.DataAnnotations.dll",
+        "lib/net45/Portable.DataAnnotations.pdb",
+        "lib/netcore45/Portable.DataAnnotations.dll",
+        "lib/netcore45/Portable.DataAnnotations.pdb",
+        "lib/portable-net40+netcore45+sl5+wp8+wpa81/Portable.DataAnnotations.dll",
+        "lib/portable-net40+netcore45+sl5+wp8+wpa81/Portable.DataAnnotations.pdb",
+        "lib/portable-net40+netcore45/Portable.DataAnnotations.dll",
+        "lib/portable-net40+netcore45/Portable.DataAnnotations.pdb",
+        "lib/portable-net45+netcore45+wp8+wpa81/Portable.DataAnnotations.dll",
+        "lib/portable-net45+netcore45+wp8+wpa81/Portable.DataAnnotations.pdb",
+        "lib/portable-net45+netcore45+wpa81/Portable.DataAnnotations.dll",
+        "lib/portable-net45+netcore45+wpa81/Portable.DataAnnotations.pdb",
+        "lib/sl5/Portable.DataAnnotations.dll",
+        "lib/sl5/Portable.DataAnnotations.pdb",
+        "lib/wp8/Portable.DataAnnotations.dll",
+        "lib/wp8/Portable.DataAnnotations.pdb",
+        "lib/wpa81/Portable.DataAnnotations.dll",
+        "lib/wpa81/Portable.DataAnnotations.pdb",
+        "src/Portable.DataAnnotations.Net40/Properties/AssemblyInfo.cs",
+        "src/Portable.DataAnnotations.Net40/Resources/DataAnnotationsResources.Designer.cs",
+        "src/Portable.DataAnnotations.Net40/TypeForwards.cs",
+        "src/Portable.DataAnnotations.Net40Portable/Properties/AssemblyInfo.cs",
+        "src/Portable.DataAnnotations.Net40Portable/Resources/DataAnnotationsResources.Designer.cs",
+        "src/Portable.DataAnnotations.Net45/Properties/AssemblyInfo.cs",
+        "src/Portable.DataAnnotations.Net45/TypeForwards.cs",
+        "src/Portable.DataAnnotations.Net45/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "src/Portable.DataAnnotations.Net45/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "src/Portable.DataAnnotations.Net45/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "src/Portable.DataAnnotations.Net45/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "src/Portable.DataAnnotations.Net45/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "src/Portable.DataAnnotations.Net45/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "src/Portable.DataAnnotations.Net45Portable/DataType.cs",
+        "src/Portable.DataAnnotations.Net45Portable/GlobalSuppressions.cs",
+        "src/Portable.DataAnnotations.Net45Portable/IValidatableObject.cs",
+        "src/Portable.DataAnnotations.Net45Portable/LocalizableString.cs",
+        "src/Portable.DataAnnotations.Net45Portable/Properties/AssemblyInfo.cs",
+        "src/Portable.DataAnnotations.Net45Portable/Resources/DataAnnotationsResources.Designer.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributeStore.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/AssociationAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/BindableTypeAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/ConcurrencyCheckAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/CreditCardAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/CustomValidationAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/DataTypeAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/DisplayAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/DisplayColumnAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/DisplayFormatAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/EditableAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/EmailAddressAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/EnumDataTypeAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/FilterUIHintAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/KeyAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/MaxLengthAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/MetadataTypeAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/MinLengthAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/PhoneAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/RangeAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/RegularExpressionAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/RequiredAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/ColumnAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/ComplexTypeAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/DatabaseGeneratedAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/DatabaseGeneratedOption.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/ForeignKeyAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/InversePropertyAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/NotMappedAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/Schema/TableAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/StringLengthAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/TimestampAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/UIHintAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/UrlAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationAttributes/ValidationAttribute.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationContext.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationException.cs",
+        "src/Portable.DataAnnotations.Net45Portable/ValidationResult.cs",
+        "src/Portable.DataAnnotations.Net45Portable/Validator.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/Properties/AssemblyInfo.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/Resources/DataAnnotationsResources.Designer.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/TypeForwards.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/ValidationAttributes/CreditCardAttribute.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/ValidationAttributes/EmailAddressAttribute.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/ValidationAttributes/MaxLengthAttribute.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/ValidationAttributes/MinLengthAttribute.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/ValidationAttributes/PhoneAttribute.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/ValidationAttributes/UrlAttribute.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "src/Portable.DataAnnotations.WindowsRuntime/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "src/Portable.DataAnnotations.Xamarin/Properties/AssemblyInfo.cs",
+        "src/Portable.DataAnnotations.Xamarin/Resources/DataAnnotationsResources.Designer.cs"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Hl7.Fhir.STU3 >= 0.90.5-alpha4",
+      "LibLog >= 4.2.6",
+      "Newtonsoft.Json >= 9.0.1"
+    ],
+    ".NETPortable,Version=v4.5,Profile=Profile259": []
+  },
+  "packageFolders": {
+    "C:\\Users\\philipwilford\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\DigitalHealth.MhrFhirClient.Portable.csproj",
+      "projectName": "DigitalHealth.MhrFhirClient.Portable",
+      "projectPath": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\DigitalHealth.MhrFhirClient.Portable.csproj",
+      "projectJsonPath": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\DigitalHealth.MhrFhirClient.Portable.project.json",
+      "packagesPath": "C:\\Users\\philipwilford\\.nuget\\packages\\",
+      "outputPath": "D:\\Phils\\GITHUB\\mhr-fhir-client-dotnet\\src\\DigitalHealth.MhrFhirClient\\obj\\",
+      "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\philipwilford\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nehta-drp-iis.nehta.net.au/NuGetServer/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "dependencies": {
+      "Hl7.Fhir.STU3": "[0.90.5-alpha4, )",
+      "LibLog": "[4.2.6, )",
+      "Newtonsoft.Json": "[9.0.1, )"
+    },
+    "frameworks": {
+      "portable45-net45+win8+wp8+wpa81": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
+}
